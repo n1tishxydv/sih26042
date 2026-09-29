@@ -1,0 +1,47 @@
+# SIH26042 Co-Teacher Control Plane (Local Development Only)
+# NOTE: The Android Classroom Co-Teacher is 100% OFFLINE and does NOT require this stack for daily teaching.
+# This docker-compose stack is strictly for backend pack preparation, sync, and database development.
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: coteacher-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: coteacher_user
+      POSTGRES_PASSWORD: coteacher_dev_password
+      POSTGRES_DB: coteacher_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U coteacher_user -d coteacher_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    container_name: coteacher-api
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: development
+      DATABASE_URL: postgresql://coteacher_user:coteacher_dev_password@db:5432/coteacher_db
+      PACKS_STORAGE_DIR: /app/data/packs/dist
+      LOG_LEVEL: DEBUG
+      ENABLE_TELEMETRY: "true"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./services/api:/app/services/api
+      - ./data/packs:/app/data/packs
+      - ./packages:/app/packages
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

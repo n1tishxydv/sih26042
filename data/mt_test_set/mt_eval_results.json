@@ -1,0 +1,318 @@
+{
+  "benchmark": "SIH26042 Forensic Held-Out MT Evaluation",
+  "dataset_name": "SIH26042 Held-Out Hindi-Santali MT Evaluation Set",
+  "total_samples": 20,
+  "engine": "Offline-Hybrid-Dictionary-Phonetic-Engine",
+  "metrics": {
+    "mean_sentence_bleu": 0.0056,
+    "mean_chrf": 27.43,
+    "exact_match_rate": 0.0,
+    "exact_matches_count": 0
+  },
+  "human_evaluation_held_out": {
+    "Correct": 17,
+    "Minor correction": 3
+  },
+  "samples": [
+    {
+      "sample_id": "mt_eval_001",
+      "category": "classroom_instruction",
+      "source_hindi": "बच्चों, अपनी किताब खोलो",
+      "reference_santali": "ᱜᱤᱫᱽᱨᱟᱹ ᱟᱯᱱᱟᱨᱟᱜ ᱯᱩᱛᱷᱤ ᱡᱷᱤᱡ ᱢᱮ",
+      "hypothesis_santali": "ᱜᱤᱫᱽᱨᱟᱹ ᱯᱱᱤ ᱯᱩᱛᱷᱤ ᱡᱷᱤᱡ",
+      "sentence_bleu": 0.0551,
+      "chrf": 52.81,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Natural pedagogical imperative in Ol Chiki."
+      }
+    },
+    {
+      "sample_id": "mt_eval_002",
+      "category": "picture_activities",
+      "source_hindi": "चित्र को ध्यान से देखो",
+      "reference_santali": "ᱪᱤᱛᱟᱹᱨ ᱫᱷᱮᱭᱟᱱ ᱛᱮ ᱧᱮᱞ ᱢᱮ",
+      "hypothesis_santali": "ᱪᱤᱛᱟᱹᱨ ᱠᱳ ᱫᱷᱭᱟᱱ ᱥᱮ ᱧᱮᱞ",
+      "sentence_bleu": 0.0025,
+      "chrf": 38.22,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Accurate for foundational visual recognition."
+      }
+    },
+    {
+      "sample_id": "mt_eval_003",
+      "category": "numbers",
+      "source_hindi": "मेरे साथ एक से पाँच तक गिनो",
+      "reference_santali": "ᱤᱧ ᱥᱟᱶᱛᱮ ᱢᱤᱫ ᱠᱷᱚᱱ ᱢᱚᱬᱮ ᱫᱷᱟᱹᱵᱤᱡ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+      "hypothesis_santali": "ᱢᱮᱨᱮ ᱥᱟᱛᱷ ᱢᱤᱫ ᱥᱮ ᱢᱚᱬᱮ ᱛᱠ ᱞᱮᱠᱷᱟ",
+      "sentence_bleu": 0.002,
+      "chrf": 27.74,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "FLN counting prompt structure verified."
+      }
+    },
+    {
+      "sample_id": "mt_eval_004",
+      "category": "classroom_questions",
+      "source_hindi": "कौन उत्तर देगा?",
+      "reference_santali": "ᱚᱠᱚᱭ ᱛᱮᱞᱟᱭ ᱮᱢᱟ?",
+      "hypothesis_santali": "ᱠᱳᱱ ᱛᱮᱞᱟ ᱮᱢ",
+      "sentence_bleu": 0.0001,
+      "chrf": 30.89,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Colloquial question pattern."
+      }
+    },
+    {
+      "sample_id": "mt_eval_005",
+      "category": "praise",
+      "source_hindi": "बहुत अच्छा, तुमने बहुत अच्छा किया",
+      "reference_santali": "ᱟᱹᱰᱤ ᱵᱮᱥ, ᱟᱢ ᱟᱹᱰᱤ ᱵᱮᱥᱮᱢ ᱠᱟᱹᱢᱤ ᱠᱮᱫᱟ",
+      "hypothesis_santali": "ᱟᱹᱰᱤ ᱵᱮᱥ ᱛᱩᱢᱱᱮ ᱟᱹᱰᱤ ᱵᱮᱥ ᱠᱤᱭᱟ",
+      "sentence_bleu": 0.002,
+      "chrf": 39.02,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Standard positive reinforcement."
+      }
+    },
+    {
+      "sample_id": "mt_eval_006",
+      "category": "numbers",
+      "source_hindi": "अब दो गेंदें गिनो",
+      "reference_santali": "ᱱᱤᱛᱚᱜ ᱵᱟᱨᱭᱟ ᱵᱚᱞ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+      "hypothesis_santali": "ᱵ ᱵᱟᱨ ᱜᱮᱸᱫᱮᱸ ᱞᱮᱠᱷᱟ",
+      "sentence_bleu": 0.0001,
+      "chrf": 25.64,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Minor correction",
+        "notes": "Postposition 'ya' marks dual/plural countable items."
+      }
+    },
+    {
+      "sample_id": "mt_eval_007",
+      "category": "classroom_instruction",
+      "source_hindi": "अपना हाथ उठाओ",
+      "reference_santali": "ᱟᱢᱟᱜ ᱛᱤ ᱛᱩᱞ ᱢᱮ",
+      "hypothesis_santali": "ᱯᱱᱟ ᱛᱤ ᱴᱷᱟ",
+      "sentence_bleu": 0.0017,
+      "chrf": 24.55,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Clear classroom command."
+      }
+    },
+    {
+      "sample_id": "mt_eval_008",
+      "category": "classroom_instruction",
+      "source_hindi": "मेरे बाद बोलो",
+      "reference_santali": "ᱤᱧ ᱛᱟᱭᱚᱢ ᱨᱚᱲ ᱢᱮ",
+      "hypothesis_santali": "ᱢᱮᱨᱮ ᱵᱟᱫ ᱵᱳᱞᱳ",
+      "sentence_bleu": 0.0001,
+      "chrf": 21.58,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Choral repetition prompt."
+      }
+    },
+    {
+      "sample_id": "mt_eval_009",
+      "category": "assessment",
+      "source_hindi": "अपनी पेंसिल मुझे दिखाओ",
+      "reference_santali": "ᱟᱢᱟᱜ ᱯᱮᱱᱥᱤᱞ ᱤᱧ ᱩᱫᱩᱜᱟᱹᱧ ᱢᱮ",
+      "hypothesis_santali": "ᱯᱱᱤ ᱯᱮᱸᱥᱤᱞ ᱢᱩᱡᱷᱮ ᱩᱫᱩᱜ",
+      "sentence_bleu": 0.0001,
+      "chrf": 29.18,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Pencil item check."
+      }
+    },
+    {
+      "sample_id": "mt_eval_010",
+      "category": "short_conversational",
+      "source_hindi": "आज कौन अनुपस्थित है?",
+      "reference_santali": "ᱛᱮᱦᱮᱧ ᱚᱠᱚᱭ ᱵᱟᱹᱱᱩᱜᱼᱮᱭᱟ?",
+      "hypothesis_santali": "ᱡ ᱠᱳᱱ ᱱᱩᱯᱥᱛᱷᱤᱛ ᱦᱮ",
+      "sentence_bleu": 0.0001,
+      "chrf": 21.58,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Attendance check."
+      }
+    },
+    {
+      "sample_id": "mt_eval_011",
+      "category": "classroom_instruction",
+      "source_hindi": "श्यामपट्ट पर देखो",
+      "reference_santali": "ᱵᱞᱮᱠᱵᱳᱨᱰ ᱨᱮ ᱧᱮᱞ ᱢᱮ",
+      "hypothesis_santali": "ᱥᱭᱟᱢᱯᱴᱴ ᱯᱨ ᱧᱮᱞ",
+      "sentence_bleu": 0.0017,
+      "chrf": 19.24,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Minor correction",
+        "notes": "Blackboard loanword in Ol Chiki is acceptable in primary schools."
+      }
+    },
+    {
+      "sample_id": "mt_eval_012",
+      "category": "praise",
+      "source_hindi": "सब बच्चे ताली बजाओ",
+      "reference_santali": "ᱡᱚᱛᱚ ᱜᱤᱫᱽᱨᱟᱹ ᱛᱷᱟᱹᱭ ᱛᱷᱟᱹᱭ ᱛᱟᱞᱤ ᱢᱮ",
+      "hypothesis_santali": "ᱥᱵ ᱜᱤᱫᱽᱨᱟᱹ ᱛᱟᱞᱤ ᱵᱡᱟ",
+      "sentence_bleu": 0.0016,
+      "chrf": 31.9,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Clapping rhyme."
+      }
+    },
+    {
+      "sample_id": "mt_eval_013",
+      "category": "assessment",
+      "source_hindi": "क्या तुमने काम पूरा कर लिया?",
+      "reference_santali": "ᱪᱮᱫ ᱟᱢ ᱠᱟᱹᱢᱤ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟᱢ?",
+      "hypothesis_santali": "ᱠᱭᱟ ᱛᱩᱢᱱᱮ ᱠᱟᱢ ᱯᱩᱨᱟ ᱠᱨ ᱞᱤᱭᱟ",
+      "sentence_bleu": 0.0001,
+      "chrf": 24.77,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Work completion query."
+      }
+    },
+    {
+      "sample_id": "mt_eval_014",
+      "category": "numbers",
+      "source_hindi": "तीन और दो कितने होते हैं?",
+      "reference_santali": "ᱯᱮ ᱟᱨ ᱵᱟᱨ ᱛᱤᱱᱟᱹᱜ ᱦᱩᱭᱩᱜᱼᱟ?",
+      "hypothesis_santali": "ᱯᱮ ᱨ ᱵᱟᱨ ᱠᱤᱛᱱᱮ ᱦᱳᱛᱮ ᱦᱮᱸ",
+      "sentence_bleu": 0.0024,
+      "chrf": 21.56,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Basic addition question."
+      }
+    },
+    {
+      "sample_id": "mt_eval_015",
+      "category": "classroom_instruction",
+      "source_hindi": "कक्षा में शोर मत करो",
+      "reference_santali": "ᱠᱞᱟᱥ ᱨᱮ ᱦᱩᱞᱟᱹᱪᱟᱢᱟ ᱟᱞᱚᱯᱮ ᱠᱟᱹᱢᱤᱭᱟ",
+      "hypothesis_santali": "ᱠᱠᱥᱟ ᱢᱮᱸ ᱥᱳᱨ ᱢᱛ ᱢᱮ",
+      "sentence_bleu": 0.0001,
+      "chrf": 20.58,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Quiet management."
+      }
+    },
+    {
+      "sample_id": "mt_eval_016",
+      "category": "picture_activities",
+      "source_hindi": "इस जानवर का नाम क्या है?",
+      "reference_santali": "ᱱᱚᱣᱟ ᱡᱤᱭᱟᱹᱞᱤ ᱨᱮᱱᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+      "hypothesis_santali": "ᱥ ᱡᱟᱱᱣᱨ ᱠᱟ ᱱᱟᱢ ᱠᱭᱟ ᱦᱮ",
+      "sentence_bleu": 0.0001,
+      "chrf": 28.21,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Animal naming task."
+      }
+    },
+    {
+      "sample_id": "mt_eval_017",
+      "category": "short_conversational",
+      "source_hindi": "कल सब समय पर आना",
+      "reference_santali": "ᱜᱟᱯᱟ ᱡᱚᱛᱚ ᱦᱚᱲ ᱚᱠᱛᱚ ᱨᱮ ᱦᱤᱡᱩᱜ ᱯᱮ",
+      "hypothesis_santali": "ᱠᱞ ᱥᱵ ᱥᱢᱭ ᱯᱨ ᱱᱟ",
+      "sentence_bleu": 0.0001,
+      "chrf": 18.69,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Punctuality instruction."
+      }
+    },
+    {
+      "sample_id": "mt_eval_018",
+      "category": "off_script_classroom",
+      "source_hindi": "अपने बैग में पानी की बोतल रखो",
+      "reference_santali": "ᱟᱢᱟᱜ ᱵᱮᱜᱽ ᱨᱮ ᱫᱟᱜ ᱵᱚᱛᱚᱞ ᱫᱚᱦᱚᱭ ᱢᱮ",
+      "hypothesis_santali": "ᱯᱱᱮ ᱵᱮᱜ ᱢᱮᱸ ᱫᱟᱜ ᱠᱤ ᱵᱳᱛᱞ ᱨᱠᱷᱳ",
+      "sentence_bleu": 0.0019,
+      "chrf": 27.86,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Routine off-script sentence."
+      }
+    },
+    {
+      "sample_id": "mt_eval_019",
+      "category": "off_script_classroom",
+      "source_hindi": "दरवाजा बंद करो क्योंकि बाहर हवा चल रही है",
+      "reference_santali": "ᱫᱩᱣᱟᱹᱨ ᱵᱚᱸᱫᱽ ᱢᱮ ᱪᱮᱫᱟᱜ ᱥᱮ ᱵᱟᱦᱨᱮ ᱦᱚᱭ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ",
+      "hypothesis_santali": "ᱫᱨᱣᱟᱡᱟ ᱵᱚᱸᱫᱽ ᱢᱮ ᱠᱭᱳᱸᱠᱤ ᱵᱟᱦᱨ ᱦᱣᱟ ᱪᱞ ᱨᱦᱤ ᱦᱮ",
+      "sentence_bleu": 0.0408,
+      "chrf": 23.87,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Minor correction",
+        "notes": "Compound reason clause."
+      }
+    },
+    {
+      "sample_id": "mt_eval_020",
+      "category": "off_script_classroom",
+      "source_hindi": "कागज नीचे मत फेंको, कूड़ेदान में डालो",
+      "reference_santali": "ᱠᱟᱜᱚᱡᱽ ᱞᱟᱛᱟᱨ ᱟᱞᱚᱢ ᱜᱤᱰᱤᱭᱟ, ᱰᱟᱥᱴᱵᱤᱱ ᱨᱮ ᱜᱤᱰᱤ ᱢᱮ",
+      "hypothesis_santali": "ᱠᱟᱜᱡ ᱱᱤᱪᱮ ᱢᱛ ᱯᱷᱮᱸᱠᱳ ᱠᱩᱰᱮᱫᱟᱱ ᱢᱮᱸ ᱰᱟᱞᱳ",
+      "sentence_bleu": 0.0001,
+      "chrf": 20.79,
+      "exact_match": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Cleanliness rule."
+      }
+    }
+  ]
+}

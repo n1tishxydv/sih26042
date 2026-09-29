@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NativeValidationRecordSchema",
+  "description": "Validation schema for human linguistic native speaker verification of classroom phrases.",
+  "type": "object",
+  "required": [
+    "phrase_id",
+    "source_hindi",
+    "candidate_santali",
+    "script",
+    "intent",
+    "category",
+    "text_status",
+    "audio_status"
+  ],
+  "properties": {
+    "phrase_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "source_hindi": {
+      "type": "string"
+    },
+    "candidate_santali": {
+      "type": "string"
+    },
+    "script": {
+      "type": "string",
+      "default": "Ol Chiki"
+    },
+    "transliteration": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": ["object", "null"],
+      "properties": {
+        "reviewer_id": { "type": "string" },
+        "role": { "type": "string" },
+        "language": { "type": "string" },
+        "dialect": { "type": "string" },
+        "location": { "type": "string" },
+        "qualification": { "type": "string" },
+        "verification_method": {
+          "type": "string",
+          "enum": ["NATIVE_SPEAKER_REVIEW", "DOUBLE_REVIEW", "COMMUNITY_REVIEW", "FIELD_CLASSROOM_REVIEW"]
+        }
+      }
+    },
+    "review_date": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "dialect": {
+      "type": "string",
+      "enum": ["generic_santali", "mayurbhanj", "santhal_pargana", "midnapore", "unspecified"]
+    },
+    "text_status": {
+      "type": "string",
+      "enum": ["PENDING", "APPROVED", "REJECTED", "REVISION_REQUIRED"]
+    },
+    "audio_status": {
+      "type": "string",
+      "enum": ["PENDING", "APPROVED", "REJECTED", "REVISION_REQUIRED", "NO_AUDIO"]
+    },
+    "runtime_provenance": {
+      "type": "string",
+      "enum": ["VERIFIED", "PENDING_VALIDATION"],
+      "description": "Computed runtime status. Can ONLY be VERIFIED if both text_status and audio_status are APPROVED and reviewer is non-null."
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

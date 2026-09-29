@@ -1,0 +1,68 @@
+[
+  {
+    "activity_id": "act_simon_says_01",
+    "title": "Action Game: Listen & Follow (Simon Says)",
+    "activity_type": "ACTION_GAME",
+    "grade": "Grade 1",
+    "goal": "Reinforces physical comprehension of basic classroom action verbs in Santali without cognitive overload.",
+    "pedagogical_objective": "Reinforces physical comprehension of basic classroom action verbs in Santali without cognitive overload.",
+    "teacher_prompt_hindi": "शिक्षक कहते हैं: 'हाथ ऊपर करो!'",
+    "teacher_prompt_native": "ᱢᱟᱪᱮᱛ ᱮ ᱢᱮᱱᱮᱫᱼᱟ: 'ᱛᱤ ᱛᱩᱞ ᱢᱮ!'",
+    "student_response_native": "(ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱛᱤ ᱠᱚ ᱛᱩᱞᱟ)",
+    "student_response_transliteration": "(Children raise their hands)",
+    "audio_prompt_path": "audio/ph_raise_hand_01.wav",
+    "audio": "audio/ph_raise_hand_01.wav",
+    "items": [],
+    "expected_response": "(ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱛᱤ ᱠᱚ ᱛᱩᱞᱟ)",
+    "difficulty": 1,
+    "verification": {
+      "status": "PENDING_VALIDATION",
+      "method": "SYNTHETIC_PROTOTYPE",
+      "notes": "Classroom activity script"
+    }
+  },
+  {
+    "activity_id": "act_call_response_01",
+    "title": "Call & Response: Morning Circle Johar",
+    "activity_type": "CALL_AND_RESPONSE",
+    "grade": "Grade 1",
+    "goal": "Establishes daily mother-tongue greeting ritual, mutual respect, and cultural belonging.",
+    "pedagogical_objective": "Establishes daily mother-tongue greeting ritual, mutual respect, and cultural belonging.",
+    "teacher_prompt_hindi": "शिक्षक: 'जोहार बच्चों!'",
+    "teacher_prompt_native": "ᱢᱟᱪᱮᱛ: 'ᱡᱚᱦᱟᱨ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ!'",
+    "student_response_native": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ: 'ᱡᱚᱦᱟᱨ ᱜᱚᱝᱠᱮ!'",
+    "student_response_transliteration": "Children: 'Johar Gomke!' (Greetings respected teacher!)",
+    "audio_prompt_path": "audio/ph_greetings_johar_01.wav",
+    "audio": "audio/ph_greetings_johar_01.wav",
+    "items": [],
+    "expected_response": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ: 'ᱡᱚᱦᱟᱨ ᱜᱚᱝᱠᱮ!'",
+    "difficulty": 1,
+    "verification": {
+      "status": "PENDING_VALIDATION",
+      "method": "SYNTHETIC_PROTOTYPE",
+      "notes": "Classroom activity script"
+    }
+  },
+  {
+    "activity_id": "act_choral_counting_01",
+    "title": "Choral Counting: Clap and Count 1 to 5",
+    "activity_type": "CHORAL_COUNTING",
+    "grade": "Grade 1",
+    "goal": "Multi-sensory rhythm and number bonding for Balvatika and Grade 1 tribal learners.",
+    "pedagogical_objective": "Multi-sensory rhythm and number bonding for Balvatika and Grade 1 tribal learners.",
+    "teacher_prompt_hindi": "शिक्षक: 'ताली बजाओ और बोलो 1, 2, 3, 4, 5'",
+    "teacher_prompt_native": "ᱢᱟᱪᱮᱛ: 'ᱛᱷᱟᱹᱭ ᱟᱛᱮ ᱞᱮᱠᱷᱟᱭ ᱢᱮ ᱢᱤᱫ, ᱵᱟᱨ, ᱯᱮ, ᱯᱩᱱ, ᱢᱚᱬᱮ'",
+    "student_response_native": "ᱢᱤᱫ (ᱛᱷᱟᱹᱭ), ᱵᱟᱨ (ᱛᱷᱟᱹᱭ), ᱯᱮ (ᱛᱷᱟᱹᱭ), ᱯᱩᱱ (ᱛᱷᱟᱹᱭ), ᱢᱚᱬᱮ (ᱛᱷᱟᱹᱭ)!",
+    "student_response_transliteration": "Mitʻ (clap), Bar (clap), Pe (clap), Pun (clap), Mõṛẽ (clap)!",
+    "audio_prompt_path": "audio/ph_count_together_01.wav",
+    "audio": "audio/ph_count_together_01.wav",
+    "items": [],
+    "expected_response": "ᱢᱤᱫ (ᱛᱷᱟᱹᱭ), ᱵᱟᱨ (ᱛᱷᱟᱹᱭ), ᱯᱮ (ᱛᱷᱟᱹᱭ), ᱯᱩᱱ (ᱛᱷᱟᱹᱭ), ᱢᱚᱬᱮ (ᱛᱷᱟᱹᱭ)!",
+    "difficulty": 1,
+    "verification": {
+      "status": "PENDING_VALIDATION",
+      "method": "SYNTHETIC_PROTOTYPE",
+      "notes": "Classroom activity script"
+    }
+  }
+]

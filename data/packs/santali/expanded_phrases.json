@@ -1,0 +1,5202 @@
+[
+  {
+    "phrase_id": "ph_sit_down_01",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_SIT",
+    "hindi_canonical": "बैठ जाओ",
+    "hindi_normalized": "बैठ जाओ",
+    "hindi_aliases": [
+      "बैठिए",
+      "बैठ जाओ"
+    ],
+    "target_native_script": "ᱫᱩᱲᱩᱵ ᱢᱮ",
+    "target_transliteration_latin": "Duṛub me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": "audio/ph_sit_down_01.wav",
+    "audio_status": "APPROVED",
+    "verification_status": "APPROVED",
+    "provenance": "VERIFIED",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_002",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_STAND",
+    "hindi_canonical": "खड़े हो जाओ",
+    "hindi_normalized": "खड़े हो जाओ",
+    "hindi_aliases": [
+      "खड़े होिए",
+      "खड़े हो जाओ"
+    ],
+    "target_native_script": "ᱛᱤᱸᱜᱩᱱ ᱢᱮ",
+    "target_transliteration_latin": "Tingun me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_003",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_COME",
+    "hindi_canonical": "इधर आओ",
+    "hindi_normalized": "इधर आओ",
+    "hindi_aliases": [
+      "इधर आओ",
+      "इधर आओ"
+    ],
+    "target_native_script": "ᱱᱚᱰᱮ ᱦᱤᱡᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Node hijug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_004",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_GO",
+    "hindi_canonical": "वहां जाओ",
+    "hindi_normalized": "वहां जाओ",
+    "hindi_aliases": [
+      "वहांिए",
+      "वहां जाओ"
+    ],
+    "target_native_script": "ᱦᱟᱸᱰᱮ ᱪᱟᱞᱟᱜ ᱢᱮ",
+    "target_transliteration_latin": "Hande chalag me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_005",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_QUEUE",
+    "hindi_canonical": "लाइन बनाओ",
+    "hindi_normalized": "लाइन बनाओ",
+    "hindi_aliases": [
+      "लाइन बनाओ",
+      "लाइन बनाओ"
+    ],
+    "target_native_script": "ᱞᱟᱭᱤᱱ ᱵᱮᱱᱟᱣ ᱯᱮ",
+    "target_transliteration_latin": "Line benaw pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_006",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_DISCIPLINE_QUIET",
+    "hindi_canonical": "शांत रहो",
+    "hindi_normalized": "शांत रहो",
+    "hindi_aliases": [
+      "शांत रहो",
+      "शांत रहो"
+    ],
+    "target_native_script": "ᱛᱷᱤᱨ ᱛᱟᱦᱮᱸᱱ ᱢᱮ",
+    "target_transliteration_latin": "Thir tahen me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_007",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ATTENTION_LISTEN",
+    "hindi_canonical": "ध्यान से सुनो",
+    "hindi_normalized": "ध्यान से सुनो",
+    "hindi_aliases": [
+      "ध्यान से सुनो",
+      "ध्यान से सुनो"
+    ],
+    "target_native_script": "ᱫᱷᱮᱭᱟᱱ ᱛᱮ ᱟᱧᱡᱚᱢ ᱢᱮ",
+    "target_transliteration_latin": "Dheyan te anjom me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_008",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ATTENTION_LOOK",
+    "hindi_canonical": "इधर देखो",
+    "hindi_normalized": "इधर देखो",
+    "hindi_aliases": [
+      "इधर देखो",
+      "इधर देखो"
+    ],
+    "target_native_script": "ᱱᱚᱛᱮ ᱧᱮᱞ ᱢᱮ",
+    "target_transliteration_latin": "Note nyel me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_009",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_SAFETY_DONT_RUN",
+    "hindi_canonical": "दौड़ो मत",
+    "hindi_normalized": "दौड़ो मत",
+    "hindi_aliases": [
+      "दौड़ो मत",
+      "दौड़ो मत"
+    ],
+    "target_native_script": "ᱟᱞᱚᱢ ᱫᱟᱹᱲᱟ",
+    "target_transliteration_latin": "Alom dara",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_010",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_PLACE",
+    "hindi_canonical": "अपनी जगह पर जाओ",
+    "hindi_normalized": "अपनी जगह पर जाओ",
+    "hindi_aliases": [
+      "अपनी जगह परिए",
+      "अपनी जगह पर जाओ"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱴᱷᱟᱶ ᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮ",
+    "target_transliteration_latin": "Amag thaw te chalag me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_011",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_SAFETY_DONT_TOUCH",
+    "hindi_canonical": "हाथ मत लगाओ",
+    "hindi_normalized": "हाथ मत लगाओ",
+    "hindi_aliases": [
+      "हाथ मत लगाओ",
+      "हाथ मत लगाओ"
+    ],
+    "target_native_script": "ᱛᱤ ᱟᱞᱚᱢ ᱞᱟᱜᱟᱣᱟ",
+    "target_transliteration_latin": "Ti alom lagawa",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_012",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_WALK_SLOW",
+    "hindi_canonical": "धीरे चलो",
+    "hindi_normalized": "धीरे चलो",
+    "hindi_aliases": [
+      "धीरे चलो",
+      "धीरे चलो"
+    ],
+    "target_native_script": "ᱵᱟᱹᱭ-ᱵᱟᱹᱭ ᱛᱮ ᱛᱟᱲᱟᱢ ᱢᱮ",
+    "target_transliteration_latin": "Bay-bay te taram me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_013",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_BAG",
+    "hindi_canonical": "अपना बस्ता रखो",
+    "hindi_normalized": "अपना बस्ता रखो",
+    "hindi_aliases": [
+      "अपना बस्ता रखो",
+      "अपना बस्ता रखो"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱡᱷᱳᱞᱟ ᱫᱚᱦᱚᱭ ᱢᱮ",
+    "target_transliteration_latin": "Amag jhola dohoy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_014",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_HYGIENE_TRASH",
+    "hindi_canonical": "कचरा कूड़ेदान में डालो",
+    "hindi_normalized": "कचरा कूड़ेदान में डालो",
+    "hindi_aliases": [
+      "कचरा कूड़ेदान में डालो",
+      "कचरा कूड़ेदान में डालो"
+    ],
+    "target_native_script": "ᱡᱟᱵᱽᱨᱟ ᱠᱩᱲᱟᱫᱟᱱ ᱨᱮ ᱜᱤᱰᱤ ᱢᱮ",
+    "target_transliteration_latin": "Jabra kuradan re gidi me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_015",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_HYGIENE_CLEAN",
+    "hindi_canonical": "कक्षा साफ रखो",
+    "hindi_normalized": "कक्षा साफ रखो",
+    "hindi_aliases": [
+      "कक्षा साफ रखो",
+      "कक्षा साफ रखो"
+    ],
+    "target_native_script": "ᱠᱞᱟᱥ ᱥᱟᱯᱷᱟ ᱫᱚᱦᱚᱭ ᱢᱮ",
+    "target_transliteration_latin": "Class sapha dohoy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_016",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_SAFETY_DONT_PUSH",
+    "hindi_canonical": "धक्का मत दो",
+    "hindi_normalized": "धक्का मत दो",
+    "hindi_aliases": [
+      "धक्का मत दो",
+      "धक्का मत दो"
+    ],
+    "target_native_script": "ᱟᱞᱚᱢ ᱴᱷᱮᱞᱟᱣᱟ",
+    "target_transliteration_latin": "Alom thelawa",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_017",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_POSTURE_SIT_STRAIGHT",
+    "hindi_canonical": "सीधे बैठो",
+    "hindi_normalized": "सीधे बैठो",
+    "hindi_aliases": [
+      "सीधे बैठो",
+      "सीधे बैठो"
+    ],
+    "target_native_script": "ᱥᱚᱡᱷᱮ ᱫᱩᱲᱩᱵ ᱢᱮ",
+    "target_transliteration_latin": "Sojhe durub me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_018",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ROUTINE_FOLD_HANDS",
+    "hindi_canonical": "हाथ जोड़ो",
+    "hindi_normalized": "हाथ जोड़ो",
+    "hindi_aliases": [
+      "हाथ जोड़ो",
+      "हाथ जोड़ो"
+    ],
+    "target_native_script": "ᱛᱤ ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Ti joraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_019",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ROUTINE_CLOSE_EYES",
+    "hindi_canonical": "आंखें बंद करो",
+    "hindi_normalized": "आंखें बंद करो",
+    "hindi_aliases": [
+      "आंखें बंद करो",
+      "आंखें बंदें"
+    ],
+    "target_native_script": "ᱢᱮᱫ ᱵᱚᱸᱫᱽ ᱢᱮ",
+    "target_transliteration_latin": "Med bond me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_020",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_HANDS_UP",
+    "hindi_canonical": "हाथ ऊपर करो",
+    "hindi_normalized": "हाथ ऊपर करो",
+    "hindi_aliases": [
+      "हाथ ऊपर करो",
+      "हाथ ऊपरें"
+    ],
+    "target_native_script": "ᱛᱤ ᱪᱮᱛᱟᱱ ᱢᱮ",
+    "target_transliteration_latin": "Ti chetan me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_021",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_HANDS_DOWN",
+    "hindi_canonical": "हाथ नीचे करो",
+    "hindi_normalized": "हाथ नीचे करो",
+    "hindi_aliases": [
+      "हाथ नीचे करो",
+      "हाथ नीचेें"
+    ],
+    "target_native_script": "ᱛᱤ ᱞᱟᱛᱟᱨ ᱢᱮ",
+    "target_transliteration_latin": "Ti latar me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_022",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_SAFETY_STOP_JUMP",
+    "hindi_canonical": "कूदना बंद करो",
+    "hindi_normalized": "कूदना बंद करो",
+    "hindi_aliases": [
+      "कूदना बंद करो",
+      "कूदना बंदें"
+    ],
+    "target_native_script": "ᱫᱚᱱ ᱵᱚᱸᱫᱽ ᱢᱮ",
+    "target_transliteration_latin": "Don bond me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_023",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_HYGIENE_WATER",
+    "hindi_canonical": "पानी पी लो",
+    "hindi_normalized": "पानी पी लो",
+    "hindi_aliases": [
+      "पानी पी लो",
+      "पानी पी लो"
+    ],
+    "target_native_script": "ᱫᱟᱜ ᱧᱩᱭ ᱢᱮ",
+    "target_transliteration_latin": "Dag nyuy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_024",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_HYGIENE_WASH",
+    "hindi_canonical": "हाथ धो लो",
+    "hindi_normalized": "हाथ धो लो",
+    "hindi_aliases": [
+      "हाथ धो लो",
+      "हाथ धो लो"
+    ],
+    "target_native_script": "ᱛᱤ ᱟᱹᱨᱩᱵ ᱢᱮ",
+    "target_transliteration_latin": "Ti arub me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_025",
+    "category": "CLASSROOM_MANAGEMENT",
+    "intent": "CLASSROOM_ACTION_CLAP",
+    "hindi_canonical": "ताली बजाओ",
+    "hindi_normalized": "ताली बजाओ",
+    "hindi_aliases": [
+      "ताली बजाओ",
+      "ताली बजाओ"
+    ],
+    "target_native_script": "ᱛᱷᱟᱹᱭᱞᱤ ᱛᱟᱦᱨᱤ ᱢᱮ",
+    "target_transliteration_latin": "Thari me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_026",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_BOOK_OPEN",
+    "hindi_canonical": "अपनी किताब खोलो",
+    "hindi_normalized": "अपनी किताब खोलो",
+    "hindi_aliases": [
+      "अपनी किताब खोलो",
+      "अपनी किताब खोलो"
+    ],
+    "target_native_script": "ᱟᱯᱱᱟᱨᱟᱜ ᱯᱩᱛᱷᱤ ᱡᱷᱤᱡ ᱢᱮ",
+    "target_transliteration_latin": "Apnarag puthi jhij me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_027",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_BOOK_CLOSE",
+    "hindi_canonical": "किताब बंद करो",
+    "hindi_normalized": "किताब बंद करो",
+    "hindi_aliases": [
+      "किताब बंद करो",
+      "किताब बंदें"
+    ],
+    "target_native_script": "ᱯᱩᱛᱷᱤ ᱵᱚᱸᱫᱽ ᱢᱮ",
+    "target_transliteration_latin": "Puthi bond me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_028",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_READ_THIS",
+    "hindi_canonical": "यह पढ़ो",
+    "hindi_normalized": "यह पढ़ो",
+    "hindi_aliases": [
+      "यह पढ़ो",
+      "यह पढ़ो"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱯᱟᱲᱦᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Nowa parhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_029",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_REPEAT",
+    "hindi_canonical": "मेरे बाद बोलो",
+    "hindi_normalized": "मेरे बाद बोलो",
+    "hindi_aliases": [
+      "मेरे बाद बोलो",
+      "मेरे बाद बोलो"
+    ],
+    "target_native_script": "ᱤᱧ ᱛᱟᱭᱚᱢ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Inj tayom ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_030",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_WRITE",
+    "hindi_canonical": "अपनी कॉपी में लिखो",
+    "hindi_normalized": "अपनी कॉपी में लिखो",
+    "hindi_aliases": [
+      "अपनी कॉपी में लिखो",
+      "अपनी कॉपी में लिखो"
+    ],
+    "target_native_script": "ᱟᱯᱱᱟᱨᱟᱜ ᱠᱷᱟᱛᱟ ᱨᱮ ᱚᱞ ᱢᱮ",
+    "target_transliteration_latin": "Apnarag khata re ol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_031",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_SHOW_ME",
+    "hindi_canonical": "मुझे दिखाओ",
+    "hindi_normalized": "मुझे दिखाओ",
+    "hindi_aliases": [
+      "मुझे दिखाओ",
+      "मुझे दिखाओ"
+    ],
+    "target_native_script": "ᱤᱧ ᱩᱫᱩᱜ-ᱟᱹᱧ ᱢᱮ",
+    "target_transliteration_latin": "Inj udug-anj me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_032",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_POINT_PICTURE",
+    "hindi_canonical": "चित्र पर उंगली रखो",
+    "hindi_normalized": "चित्र पर उंगली रखो",
+    "hindi_aliases": [
+      "चित्र पर उंगली रखो",
+      "चित्र पर उंगली रखो"
+    ],
+    "target_native_script": "ᱪᱤᱛᱟᱹᱨ ᱨᱮ ᱴᱤᱯᱟᱹᱣ ᱢᱮ",
+    "target_transliteration_latin": "Chitar re tipaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_033",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_TURN_PAGE",
+    "hindi_canonical": "पन्ना पलटो",
+    "hindi_normalized": "पन्ना पलटो",
+    "hindi_aliases": [
+      "पन्ना पलटो",
+      "पन्ना पलटो"
+    ],
+    "target_native_script": "ᱥᱟᱠᱟᱢ ᱯᱟᱞᱴᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Sakam paltaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_034",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_LOOK_BOARD",
+    "hindi_canonical": "बोर्ड की तरफ देखो",
+    "hindi_normalized": "बोर्ड की तरफ देखो",
+    "hindi_aliases": [
+      "बोर्ड की तरफ देखो",
+      "बोर्ड की तरफ देखो"
+    ],
+    "target_native_script": "ᱵᱳᱨᱰ ᱥᱮᱫ ᱧᱮᱞ ᱢᱮ",
+    "target_transliteration_latin": "Bord sed nyel me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_035",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_TAKE_PENCIL",
+    "hindi_canonical": "पेंसिल निकालो",
+    "hindi_normalized": "पेंसिल निकालो",
+    "hindi_aliases": [
+      "पेंसिल निकालो",
+      "पेंसिल निकालो"
+    ],
+    "target_native_script": "ᱯᱮᱱᱥᱤᱞ ᱚᱰᱚᱠ ᱢᱮ",
+    "target_transliteration_latin": "Pencil odok me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_036",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_PUT_PENCIL",
+    "hindi_canonical": "पेंसिल नीचे रखो",
+    "hindi_normalized": "पेंसिल नीचे रखो",
+    "hindi_aliases": [
+      "पेंसिल नीचे रखो",
+      "पेंसिल नीचे रखो"
+    ],
+    "target_native_script": "ᱯᱮᱱᱥᱤᱞ ᱞᱟᱛᱟᱨ ᱨᱮ ᱫᱚᱦᱚᱭ ᱢᱮ",
+    "target_transliteration_latin": "Pencil latar re dohoy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_037",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_SPEAK_LOUD",
+    "hindi_canonical": "जोर से बोलो",
+    "hindi_normalized": "जोर से बोलो",
+    "hindi_aliases": [
+      "जोर से बोलो",
+      "जोर से बोलो"
+    ],
+    "target_native_script": "ᱡᱚᱨ ᱛᱮ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Jor te ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_038",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_SPEAK_SOFT",
+    "hindi_canonical": "धीरे से बोलो",
+    "hindi_normalized": "धीरे से बोलो",
+    "hindi_aliases": [
+      "धीरे से बोलो",
+      "धीरे से बोलो"
+    ],
+    "target_native_script": "ᱵᱟᱹᱭ ᱛᱮ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Bay te ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_039",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_WRITE_NEAT",
+    "hindi_canonical": "साफ-साफ लिखो",
+    "hindi_normalized": "साफ-साफ लिखो",
+    "hindi_aliases": [
+      "साफ-साफ लिखो",
+      "साफ-साफ लिखो"
+    ],
+    "target_native_script": "ᱥᱟᱯᱷᱟ-ᱥᱟᱯᱷᱟ ᱚᱞ ᱢᱮ",
+    "target_transliteration_latin": "Sapha-sapha ol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_040",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_FIRST_LETTER",
+    "hindi_canonical": "पहला अक्षर बोलो",
+    "hindi_normalized": "पहला अक्षर बोलो",
+    "hindi_aliases": [
+      "पहला अक्षर बोलो",
+      "पहला अक्षर बोलो"
+    ],
+    "target_native_script": "ᱯᱩᱭᱞᱩ ᱟᱠᱷᱚᱨ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Puylu akhor ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_041",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_LAST_LETTER",
+    "hindi_canonical": "आखिरी अक्षर बोलो",
+    "hindi_normalized": "आखिरी अक्षर बोलो",
+    "hindi_aliases": [
+      "आखिरी अक्षर बोलो",
+      "आखिरी अक्षर बोलो"
+    ],
+    "target_native_script": "ᱢᱩᱪᱟᱹᱫ ᱟᱠᱷᱚᱨ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Muchad akhor ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_042",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_JOIN_WORD",
+    "hindi_canonical": "शब्द को जोड़ो",
+    "hindi_normalized": "शब्द को जोड़ो",
+    "hindi_aliases": [
+      "शब्द को जोड़ो",
+      "शब्द को जोड़ो"
+    ],
+    "target_native_script": "ᱟᱹᱲᱟᱹ ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Ara joraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_043",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_READ_SENTENCE",
+    "hindi_canonical": "वाक्य पढ़ो",
+    "hindi_normalized": "वाक्य पढ़ो",
+    "hindi_aliases": [
+      "वाक्य पढ़ो",
+      "वाक्य पढ़ो"
+    ],
+    "target_native_script": "ᱟᱭᱟᱛ ᱯᱟᱲᱦᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Ayat parhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_044",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_IDENTIFY_VOWEL",
+    "hindi_canonical": "मात्रा पहचानो",
+    "hindi_normalized": "मात्रा पहचानो",
+    "hindi_aliases": [
+      "मात्रा पहचानो",
+      "मात्रा पहचानो"
+    ],
+    "target_native_script": "ᱢᱟᱛᱨᱟ ᱩᱨᱩᱢ ᱢᱮ",
+    "target_transliteration_latin": "Matra urum me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_045",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_COLOR",
+    "hindi_canonical": "रंग भरो",
+    "hindi_normalized": "रंग भरो",
+    "hindi_aliases": [
+      "रंग भरो",
+      "रंग भरो"
+    ],
+    "target_native_script": "ᱨᱚᱝ ᱯᱮᱨᱮᱡ ᱢᱮ",
+    "target_transliteration_latin": "Rong perej me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_046",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_DRAW_CIRCLE",
+    "hindi_canonical": "गोला बनाओ",
+    "hindi_normalized": "गोला बनाओ",
+    "hindi_aliases": [
+      "गोला बनाओ",
+      "गोला बनाओ"
+    ],
+    "target_native_script": "ᱜᱳᱞ ᱵᱮᱱᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Gol benaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_047",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_DRAW_LINE",
+    "hindi_canonical": "सीधी रेखा खींचो",
+    "hindi_normalized": "सीधी रेखा खींचो",
+    "hindi_aliases": [
+      "सीधी रेखा खींचो",
+      "सीधी रेखा खींचो"
+    ],
+    "target_native_script": "ᱥᱚᱡᱷᱮ ᱜᱟᱟᱨ ᱴᱟᱱᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Sojhe gar tanaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_048",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_MATCH",
+    "hindi_canonical": "सही मिलान करो",
+    "hindi_normalized": "सही मिलान करो",
+    "hindi_aliases": [
+      "सही मिलान करो",
+      "सही मिलानें"
+    ],
+    "target_native_script": "ᱥᱟᱹᱨᱤ ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Sari joraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_049",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_PICK_ODD",
+    "hindi_canonical": "अलग को चुनो",
+    "hindi_normalized": "अलग को चुनो",
+    "hindi_aliases": [
+      "अलग को चुनो",
+      "अलग को चुनो"
+    ],
+    "target_native_script": "ᱡᱩᱫᱟᱹ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Juda bachhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_050",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_LISTEN_STORY",
+    "hindi_canonical": "कहानी सुनो",
+    "hindi_normalized": "कहानी सुनो",
+    "hindi_aliases": [
+      "कहानी सुनो",
+      "कहानी सुनो"
+    ],
+    "target_native_script": "ᱠᱟᱹᱦᱱᱤ ᱟᱧᱡᱚᱢ ᱢᱮ",
+    "target_transliteration_latin": "Kahni anjom me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_051",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_REPLY_POEM",
+    "hindi_canonical": "कविता बोलो",
+    "hindi_normalized": "कविता बोलो",
+    "hindi_aliases": [
+      "कविता बोलो",
+      "कविता बोलो"
+    ],
+    "target_native_script": "ᱚᱱᱚᱬᱦᱮ ᱨᱚᱲ ᱢᱮ",
+    "target_transliteration_latin": "Ononhe ror me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_052",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_RECOGNIZE_LETTER",
+    "hindi_canonical": "अक्षर पहचानो",
+    "hindi_normalized": "अक्षर पहचानो",
+    "hindi_aliases": [
+      "अक्षर पहचानो",
+      "अक्षर पहचानो"
+    ],
+    "target_native_script": "ᱟᱠᱷᱚᱨ ᱩᱨᱩᱢ ᱢᱮ",
+    "target_transliteration_latin": "Akhor urum me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_053",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_REPEAT_WORD",
+    "hindi_canonical": "शब्द दोहराओ",
+    "hindi_normalized": "शब्द दोहराओ",
+    "hindi_aliases": [
+      "शब्द दोहराओ",
+      "शब्द दोहराओ"
+    ],
+    "target_native_script": "ᱟᱹᱲᱟᱹ ᱫᱚᱦᱲᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Ara dohray me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_054",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_RAISE_HAND",
+    "hindi_canonical": "हाथ उठाओ",
+    "hindi_normalized": "हाथ उठाओ",
+    "hindi_aliases": [
+      "हाथ उठाओ",
+      "हाथ उठाओ"
+    ],
+    "target_native_script": "ᱛᱤ ᱛᱩᱞ ᱢᱮ",
+    "target_transliteration_latin": "Ti tul me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_055",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_PAY_ATTENTION",
+    "hindi_canonical": "ध्यान दो",
+    "hindi_normalized": "ध्यान दो",
+    "hindi_aliases": [
+      "ध्यान दो",
+      "ध्यान दो"
+    ],
+    "target_native_script": "ᱫᱷᱮᱭᱟᱱ ᱮᱢ ᱢᱮ",
+    "target_transliteration_latin": "Dheyan em me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_056",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_CHORAL_SPEAK",
+    "hindi_canonical": "एक साथ बोलो",
+    "hindi_normalized": "एक साथ बोलो",
+    "hindi_aliases": [
+      "एक साथ बोलो",
+      "एक साथ बोलो"
+    ],
+    "target_native_script": "ᱢᱤᱫ ᱛᱮ ᱨᱚᱲ ᱯᱮ",
+    "target_transliteration_latin": "Mid te ror pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_057",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_STOP_REPEAT",
+    "hindi_canonical": "दोहराना बंद करो",
+    "hindi_normalized": "दोहराना बंद करो",
+    "hindi_aliases": [
+      "दोहराना बंद करो",
+      "दोहराना बंदें"
+    ],
+    "target_native_script": "ᱫᱚᱦᱲᱟ ᱵᱚᱸᱫᱽ ᱢᱮ",
+    "target_transliteration_latin": "Dohra bond me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_058",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_FINISH_WORK",
+    "hindi_canonical": "काम पूरा करो",
+    "hindi_normalized": "काम पूरा करो",
+    "hindi_aliases": [
+      "काम पूरा करो",
+      "काम पूराें"
+    ],
+    "target_native_script": "ᱠᱟᱹᱢᱤ ᱯᱩᱨᱟᱹᱣ ᱢᱮ",
+    "target_transliteration_latin": "Kami puraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_059",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_READ_TOGETHER",
+    "hindi_canonical": "सब मिलकर पढ़ो",
+    "hindi_normalized": "सब मिलकर पढ़ो",
+    "hindi_aliases": [
+      "सब मिलकर पढ़ो",
+      "सब मिलकर पढ़ो"
+    ],
+    "target_native_script": "ᱥᱟᱱᱟᱢ ᱠᱚ ᱯᱟᱲᱦᱟᱣ ᱯᱮ",
+    "target_transliteration_latin": "Sanam ko parhaw pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_060",
+    "category": "TEACHING_INSTRUCTION",
+    "intent": "INSTRUCTION_WAIT_TURN",
+    "hindi_canonical": "अपनी बारी का इंतजार करो",
+    "hindi_normalized": "अपनी बारी का इंतजार करो",
+    "hindi_aliases": [
+      "अपनी बारी का इंतजार करो",
+      "अपनी बारी का इंतजारें"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱯᱟᱞᱟ ᱛᱟᱺᱜᱤ ᱢᱮ",
+    "target_transliteration_latin": "Amag pala tangi me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_061",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_ANSWER",
+    "hindi_canonical": "कौन उत्तर देगा?",
+    "hindi_normalized": "कौन उत्तर देगा",
+    "hindi_aliases": [
+      "कौन उत्तर देगा?",
+      "कौन उत्तर देगा?"
+    ],
+    "target_native_script": "ᱚᱠᱚᱭ ᱛᱮᱞᱟᱭ ᱮᱢᱟ?",
+    "target_transliteration_latin": "Okoy telay ema?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_062",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_IS_THIS",
+    "hindi_canonical": "यह क्या है?",
+    "hindi_normalized": "यह क्या है",
+    "hindi_aliases": [
+      "यह क्या है?",
+      "यह क्या है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Nowa do ched kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_063",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_HOW_MANY",
+    "hindi_canonical": "कितने हैं?",
+    "hindi_normalized": "कितने हैं",
+    "hindi_aliases": [
+      "कितने हैं?",
+      "कितने हैं?"
+    ],
+    "target_native_script": "ᱛᱤᱱᱟᱹᱜ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "target_transliteration_latin": "Tinag menag-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_064",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHICH_BIGGER",
+    "hindi_canonical": "कौन सा बड़ा है?",
+    "hindi_normalized": "कौन सा बड़ा है",
+    "hindi_aliases": [
+      "कौन सा बड़ा है?",
+      "कौन सा बड़ा है?"
+    ],
+    "target_native_script": "ᱚᱠᱟᱴᱟᱜ ᱫᱚ ᱢᱟᱨᱟᱝ ᱜᱮᱭᱟ?",
+    "target_transliteration_latin": "Okatag do marang geya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_065",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHICH_SMALLER",
+    "hindi_canonical": "कौन सा छोटा है?",
+    "hindi_normalized": "कौन सा छोटा है",
+    "hindi_aliases": [
+      "कौन सा छोटा है?",
+      "कौन सा छोटा है?"
+    ],
+    "target_native_script": "ᱚᱠᱟᱴᱟᱜ ᱫᱚ ᱦᱩᱰᱤᱧ ᱜᱮᱭᱟ?",
+    "target_transliteration_latin": "Okatag do hudinj geya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_066",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHERE_BOOK",
+    "hindi_canonical": "आपकी किताब कहां है?",
+    "hindi_normalized": "आपकी किताब कहां है",
+    "hindi_aliases": [
+      "आपकी किताब कहां है?",
+      "आपकी किताब कहां है?"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱯᱩᱛᱷᱤ ᱚᱠᱟᱨᱮ?",
+    "target_transliteration_latin": "Amag puthi okare?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_067",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_DID_UNDERSTAND",
+    "hindi_canonical": "क्या समझ गए?",
+    "hindi_normalized": "क्या समझ गए",
+    "hindi_aliases": [
+      "क्या समझ गए?",
+      "क्या समझ गए?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱵᱩᱡᱷᱟᱹᱣ ᱠᱮᱫ-ᱟᱢ?",
+    "target_transliteration_latin": "Ched bujhaw ked-am?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_068",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_FINISHED",
+    "hindi_canonical": "किसका काम पूरा हुआ?",
+    "hindi_normalized": "किसका काम पूरा हुआ",
+    "hindi_aliases": [
+      "किसका काम पूरा हुआ?",
+      "किसका काम पूरा हुआ?"
+    ],
+    "target_native_script": "ᱚᱠᱚᱭᱟᱜ ᱠᱟᱹᱢᱤ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ?",
+    "target_transliteration_latin": "Okoyag kami puraw ena?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_069",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHY_LATE",
+    "hindi_canonical": "देरी क्यों हुई?",
+    "hindi_normalized": "देरी क्यों हुई",
+    "hindi_aliases": [
+      "देरी क्यों हुई?",
+      "देरी क्यों हुई?"
+    ],
+    "target_native_script": "ᱪᱮᱫᱟᱜ ᱵᱤᱞᱚᱢ ᱮᱱᱟ?",
+    "target_transliteration_latin": "Chedag bilom ena?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_070",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_TELL",
+    "hindi_canonical": "कौन बताएगा?",
+    "hindi_normalized": "कौन बताएगा",
+    "hindi_aliases": [
+      "कौन बताएगा?",
+      "कौन बताएगा?"
+    ],
+    "target_native_script": "ᱚᱠᱚᱭ ᱞᱟᱹᱭᱟ?",
+    "target_transliteration_latin": "Okoy laya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_071",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_COLOR",
+    "hindi_canonical": "यह कौन सा रंग है?",
+    "hindi_normalized": "यह कौन सा रंग है",
+    "hindi_aliases": [
+      "यह कौन सा रंग है?",
+      "यह कौन सा रंग है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱪᱮᱫ ᱨᱚᱝ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Nowa do ched rong kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_072",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_ANIMAL",
+    "hindi_canonical": "यह कौन सा जानवर है?",
+    "hindi_normalized": "यह कौन सा जानवर है",
+    "hindi_aliases": [
+      "यह कौन सा जानवर है?",
+      "यह कौन सा जानवर है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱪᱮᱫ ᱡᱤᱵᱽ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Nowa do ched jib kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_073",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_FRUIT",
+    "hindi_canonical": "यह कौन सा फल है?",
+    "hindi_normalized": "यह कौन सा फल है",
+    "hindi_aliases": [
+      "यह कौन सा फल है?",
+      "यह कौन सा फल है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱪᱮᱫ ᱡᱚ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Nowa do ched jo kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_074",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_COUNT_VALUE",
+    "hindi_canonical": "इसकी गिनती कितनी है?",
+    "hindi_normalized": "इसकी गिनती कितनी है",
+    "hindi_aliases": [
+      "इसकी गिनती कितनी है?",
+      "इसकी गिनती कितनी है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱨᱮᱭᱟᱜ ᱞᱮᱠᱷᱟ ᱛᱤᱱᱟᱹᱜ?",
+    "target_transliteration_latin": "Nowa reyag lekha tinag?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_075",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_ARE_READY",
+    "hindi_canonical": "क्या आप तैयार हैं?",
+    "hindi_normalized": "क्या आप तैयार हैं",
+    "hindi_aliases": [
+      "क्या आप तैयार हैं?",
+      "क्या आप तैयार हैं?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱟᱢ ᱥᱟᱯᱲᱟᱣ ᱢᱮᱱᱟᱢᱟ?",
+    "target_transliteration_latin": "Ched am sapraw menama?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_076",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_DID",
+    "hindi_canonical": "किसने किया?",
+    "hindi_normalized": "किसने किया",
+    "hindi_aliases": [
+      "किसने किया?",
+      "किसने किया?"
+    ],
+    "target_native_script": "ᱚᱠᱚᱭ ᱠᱟᱹᱢᱤ ᱠᱮᱫ-ᱟ?",
+    "target_transliteration_latin": "Okoy kami ked-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_077",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_NEXT",
+    "hindi_canonical": "अगला कौन है?",
+    "hindi_normalized": "अगला कौन है",
+    "hindi_aliases": [
+      "अगला कौन है?",
+      "अगला कौन है?"
+    ],
+    "target_native_script": "ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱚᱠᱚᱭ?",
+    "target_transliteration_latin": "Ina tayom okoy?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_078",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_ANY_DOUBT",
+    "hindi_canonical": "क्या कोई सवाल है?",
+    "hindi_normalized": "क्या कोई सवाल है",
+    "hindi_aliases": [
+      "क्या कोई सवाल है?",
+      "क्या कोई सवाल है?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱡᱟᱦᱟᱸᱱ ᱠᱩᱠᱞᱤ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "target_transliteration_latin": "Ched jahan kukli menag-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_079",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_NAME",
+    "hindi_canonical": "इसका नाम क्या है?",
+    "hindi_normalized": "इसका नाम क्या है",
+    "hindi_aliases": [
+      "इसका नाम क्या है?",
+      "इसका नाम क्या है?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱨᱮᱭᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+    "target_transliteration_latin": "Nowa reyag nyutum ched?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_080",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHERE_GOING",
+    "hindi_canonical": "कहाँ जा रहे हो?",
+    "hindi_normalized": "कहाँ जा रहे हो",
+    "hindi_aliases": [
+      "कहाँ जा रहे हो?",
+      "कहाँ जा रहे हो?"
+    ],
+    "target_native_script": "ᱚᱠᱟ ᱛᱮᱢ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Oka tem chalag kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_081",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_HAPPENED",
+    "hindi_canonical": "क्या हुआ?",
+    "hindi_normalized": "क्या हुआ",
+    "hindi_aliases": [
+      "क्या हुआ?",
+      "क्या हुआ?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱦᱩᱭ ᱮᱱᱟ?",
+    "target_transliteration_latin": "Ched huy ena?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_082",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHOSE_PENCIL",
+    "hindi_canonical": "पेंसिल किसकी है?",
+    "hindi_normalized": "पेंसिल किसकी है",
+    "hindi_aliases": [
+      "पेंसिल किसकी है?",
+      "पेंसिल किसकी है?"
+    ],
+    "target_native_script": "ᱯᱮᱱᱥᱤᱞ ᱚᱠᱚᱭᱟᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Pencil okoyag kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_083",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_HAD_FOOD",
+    "hindi_canonical": "क्या आपने खाना खाया?",
+    "hindi_normalized": "क्या आपने खाना खाया",
+    "hindi_aliases": [
+      "क्या आपने खाना खाया?",
+      "क्या आपने खाना खाया?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱟᱢ ᱫᱟᱠᱟᱢ ᱡᱚᱢ ᱠᱮᱫ-ᱟ?",
+    "target_transliteration_latin": "Ched am dakam jom ked-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_084",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_AT_HOME",
+    "hindi_canonical": "घर पर कौन है?",
+    "hindi_normalized": "घर पर कौन है",
+    "hindi_aliases": [
+      "घर पर कौन है?",
+      "घर पर कौन है?"
+    ],
+    "target_native_script": "ᱚᱲᱟᱜ ᱨᱮ ᱚᱠᱚᱭ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ?",
+    "target_transliteration_latin": "Orag re okoy menag kowa?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_085",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHO_ABSENT",
+    "hindi_canonical": "आज कौन अनुपस्थित है?",
+    "hindi_normalized": "आज कौन अनुपस्थित है",
+    "hindi_aliases": [
+      "आज कौन अनुपस्थित है?",
+      "आज कौन अनुपस्थित है?"
+    ],
+    "target_native_script": "ᱛᱮᱦᱮᱧ ᱚᱠᱚᱭ ᱵᱟᱹᱱᱩᱜ-ᱮᱭᱟ?",
+    "target_transliteration_latin": "Tehenj okoy banug-eya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_086",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_RIGHT_OR_WRONG",
+    "hindi_canonical": "यह सही है या गलत?",
+    "hindi_normalized": "यह सही है या गलत",
+    "hindi_aliases": [
+      "यह सही है या गलत?",
+      "यह सही है या गलत?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱥᱟᱹᱨᱤ ᱥᱮ ᱵᱟᱹᱲᱤᱡ?",
+    "target_transliteration_latin": "Nowa do sari se barij?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_087",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_CAN_REPEAT",
+    "hindi_canonical": "क्या आप दोहरा सकते हैं?",
+    "hindi_normalized": "क्या आप दोहरा सकते हैं",
+    "hindi_aliases": [
+      "क्या आप दोहरा सकते हैं?",
+      "क्या आप दोहरा सकते हैं?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱟᱢ ᱫᱚᱦᱲᱟ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ?",
+    "target_transliteration_latin": "Ched am dohra dareyag-am?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_088",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_AGE",
+    "hindi_canonical": "आपकी उम्र क्या है?",
+    "hindi_normalized": "आपकी उम्र क्या है",
+    "hindi_aliases": [
+      "आपकी उम्र क्या है?",
+      "आपकी उम्र क्या है?"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱩᱢᱮᱨ ᱛᱤᱱᱟᱹᱜ?",
+    "target_transliteration_latin": "Amag umer tinag?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_089",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHERE_FROM",
+    "hindi_canonical": "यह कहाँ से आया?",
+    "hindi_normalized": "यह कहाँ से आया",
+    "hindi_aliases": [
+      "यह कहाँ से आया?",
+      "यह कहाँ से आया?"
+    ],
+    "target_native_script": "ᱱᱚᱣᱟ ᱫᱚ ᱚᱠᱟ ᱠᱷᱚᱱ ᱦᱮᱡ ᱮᱱᱟ?",
+    "target_transliteration_latin": "Nowa do oka khon hej ena?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_090",
+    "category": "QUESTIONS",
+    "intent": "QUESTION_WHAT_LIKE",
+    "hindi_canonical": "आपको क्या पसंद है?",
+    "hindi_normalized": "आपको क्या पसंद है",
+    "hindi_aliases": [
+      "आपको क्या पसंद है?",
+      "आपको क्या पसंद है?"
+    ],
+    "target_native_script": "ᱟᱢ ᱫᱚ ᱪᱮᱫ ᱠᱩᱥᱤᱭᱟᱜ-ᱟᱢ?",
+    "target_transliteration_latin": "Am do ched kusiyag-am?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_091",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_VERY_GOOD",
+    "hindi_canonical": "बहुत अच्छा",
+    "hindi_normalized": "बहुत अच्छा",
+    "hindi_aliases": [
+      "बहुत अच्छा",
+      "बहुत अच्छा"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱵᱮᱥ",
+    "target_transliteration_latin": "Adi bes",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_092",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_EXCELLENT",
+    "hindi_canonical": "शाबाश",
+    "hindi_normalized": "शाबाश",
+    "hindi_aliases": [
+      "शाबाश",
+      "शाबाश"
+    ],
+    "target_native_script": "ᱥᱟᱵᱟᱥ",
+    "target_transliteration_latin": "Sabas",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_093",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_WONDERFUL",
+    "hindi_canonical": "शानदार",
+    "hindi_normalized": "शानदार",
+    "hindi_aliases": [
+      "शानदार",
+      "शानदार"
+    ],
+    "target_native_script": "ᱢᱚᱡᱽ ᱜᱮ",
+    "target_transliteration_latin": "Moj ge",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_094",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_TRY_AGAIN",
+    "hindi_canonical": "फिर से कोशिश करो",
+    "hindi_normalized": "फिर से कोशिश करो",
+    "hindi_aliases": [
+      "फिर से कोशिश करो",
+      "फिर से कोशिशें"
+    ],
+    "target_native_script": "ᱫᱚᱦᱲᱟ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Dohra te chestay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_095",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_YOU_CAN",
+    "hindi_canonical": "आप कर सकते हैं",
+    "hindi_normalized": "आप कर सकते हैं",
+    "hindi_aliases": [
+      "आप कर सकते हैं",
+      "आप कर सकते हैं"
+    ],
+    "target_native_script": "ᱟᱢ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ",
+    "target_transliteration_latin": "Am dareyag-am",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_096",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_GREAT_JOB",
+    "hindi_canonical": "बहुत बढ़िया काम",
+    "hindi_normalized": "बहुत बढ़िया काम",
+    "hindi_aliases": [
+      "बहुत बढ़िया काम",
+      "बहुत बढ़िया काम"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱠᱟᱹᱢᱤ",
+    "target_transliteration_latin": "Adi napay kami",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_097",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_NEAT_HANDWRITING",
+    "hindi_canonical": "सुंदर लिखावट",
+    "hindi_normalized": "सुंदर लिखावट",
+    "hindi_aliases": [
+      "सुंदर लिखावट",
+      "सुंदर लिखावट"
+    ],
+    "target_native_script": "ᱪᱚᱨᱚᱠ ᱚᱞ",
+    "target_transliteration_latin": "Chorok ol",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_098",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_AWESOME",
+    "hindi_canonical": "कमाल कर दिया",
+    "hindi_normalized": "कमाल कर दिया",
+    "hindi_aliases": [
+      "कमाल कर दिया",
+      "कमाल कर दिया"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱪᱚᱨᱚᱠ",
+    "target_transliteration_latin": "Adi chorok",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_099",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_KEEP_IT_UP",
+    "hindi_canonical": "जारी रखो",
+    "hindi_normalized": "जारी रखो",
+    "hindi_aliases": [
+      "जारी रखो",
+      "जारी रखो"
+    ],
+    "target_native_script": "ᱪᱟᱞᱟᱣ ᱫᱚᱦᱚᱭ ᱢᱮ",
+    "target_transliteration_latin": "Chalaw dohoy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_100",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_LEARNING_FAST",
+    "hindi_canonical": "आप तेजी से सीख रहे हैं",
+    "hindi_normalized": "आप तेजी से सीख रहे हैं",
+    "hindi_aliases": [
+      "आप तेजी से सीख रहे हैं",
+      "आप तेजी से सीख रहे हैं"
+    ],
+    "target_native_script": "ᱟᱢ ᱞᱚᱜᱚᱱ ᱮᱢ ᱪᱮᱫᱚᱜ ᱠᱟᱱᱟ",
+    "target_transliteration_latin": "Am logon em chedog kana",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_101",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_HAVE_COURAGE",
+    "hindi_canonical": "साहस रखो",
+    "hindi_normalized": "साहस रखो",
+    "hindi_aliases": [
+      "साहस रखो",
+      "साहस रखो"
+    ],
+    "target_native_script": "ᱥᱟᱦᱟᱥ ᱫᱚᱦᱚᱭ ᱢᱮ",
+    "target_transliteration_latin": "Sahas dohoy me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_102",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_DONT_WORRY",
+    "hindi_canonical": "चिंता मत करो",
+    "hindi_normalized": "चिंता मत करो",
+    "hindi_aliases": [
+      "चिंता मत करो",
+      "चिंता मतें"
+    ],
+    "target_native_script": "ᱟᱞᱚᱢ ᱪᱤᱱᱛᱟᱹᱜ-ᱟ",
+    "target_transliteration_latin": "Alom chintag-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_103",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_MISTAKES_TEACH",
+    "hindi_canonical": "गलतियों से सीखते हैं",
+    "hindi_normalized": "गलतियों से सीखते हैं",
+    "hindi_aliases": [
+      "गलतियों से सीखते हैं",
+      "गलतियों से सीखते हैं"
+    ],
+    "target_native_script": "ᱵᱷᱩᱞ ᱠᱷᱚᱱ ᱜᱮᱵᱚ ᱪᱮᱫᱚᱜ-ᱟ",
+    "target_transliteration_latin": "Bhul khon gebo chedog-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_104",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_SMART_KIDS",
+    "hindi_canonical": "बहुत होशियार बच्चे",
+    "hindi_normalized": "बहुत होशियार बच्चे",
+    "hindi_aliases": [
+      "बहुत होशियार बच्चे",
+      "बहुत होशियार बच्चे"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱞᱟᱹᱥᱠᱟᱹ ᱜᱤᱫᱽᱨᱟᱹ",
+    "target_transliteration_latin": "Adi laska gidra",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_105",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_CORRECT_ANSWER",
+    "hindi_canonical": "सही उत्तर",
+    "hindi_normalized": "सही उत्तर",
+    "hindi_aliases": [
+      "सही उत्तर",
+      "सही उत्तर"
+    ],
+    "target_native_script": "ᱥᱟᱹᱨᱤ ᱛᱮᱞᱟ",
+    "target_transliteration_latin": "Sari tela",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_106",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_PROUD_OF_YOU",
+    "hindi_canonical": "मुझे आप पर गर्व है",
+    "hindi_normalized": "मुझे आप पर गर्व है",
+    "hindi_aliases": [
+      "मुझे आप पर गर्व है",
+      "मुझे आप पर गर्व है"
+    ],
+    "target_native_script": "ᱤᱧ ᱟᱢ ᱨᱮ ᱜᱚᱨᱚᱵᱽ ᱢᱮᱱᱟᱜ-ᱟ",
+    "target_transliteration_latin": "Inj am re gorob menag-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_107",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_GOOD_EFFORT",
+    "hindi_canonical": "अच्छा प्रयास",
+    "hindi_normalized": "अच्छा प्रयास",
+    "hindi_aliases": [
+      "अच्छा प्रयास",
+      "अच्छा प्रयास"
+    ],
+    "target_native_script": "ᱵᱮᱥ ᱪᱮᱥᱴᱟ",
+    "target_transliteration_latin": "Bes chesta",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_108",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_TOMORROW_BETTER",
+    "hindi_canonical": "कल और बेहतर होगा",
+    "hindi_normalized": "कल और बेहतर होगा",
+    "hindi_aliases": [
+      "कल और बेहतर होगा",
+      "कल और बेहतर होगा"
+    ],
+    "target_native_script": "ᱜᱟᱯᱟ ᱟᱨᱦᱚᱸ ᱵᱮᱥ ᱦᱩᱭᱩᱜ-ᱟ",
+    "target_transliteration_latin": "Gapa arho bes huyug-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_109",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_BEAUTIFUL",
+    "hindi_canonical": "बहुत सुंदर",
+    "hindi_normalized": "बहुत सुंदर",
+    "hindi_aliases": [
+      "बहुत सुंदर",
+      "बहुत सुंदर"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱢᱚᱡᱽ",
+    "target_transliteration_latin": "Adi moj",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_110",
+    "category": "PRAISE_AND_ENCOURAGEMENT",
+    "intent": "PRAISE_THANK_YOU",
+    "hindi_canonical": "धन्यवाद",
+    "hindi_normalized": "धन्यवाद",
+    "hindi_aliases": [
+      "धन्यवाद",
+      "धन्यवाद"
+    ],
+    "target_native_script": "ᱥᱟᱨᱦᱟᱣ",
+    "target_transliteration_latin": "Sarhaw",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_111",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_OBSERVE",
+    "hindi_canonical": "चित्र को ध्यान से देखो",
+    "hindi_normalized": "चित्र को ध्यान से देखो",
+    "hindi_aliases": [
+      "चित्र को ध्यान से देखो",
+      "चित्र को ध्यान से देखो"
+    ],
+    "target_native_script": "ᱪᱤᱛᱟᱹᱨ ᱫᱷᱮᱭᱟᱱ ᱛᱮ ᱧᱮᱞ ᱢᱮ",
+    "target_transliteration_latin": "Chitar dheyan te nyel me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_112",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_FIND_ANIMAL",
+    "hindi_canonical": "जानवर को ढूंढो",
+    "hindi_normalized": "जानवर को ढूंढो",
+    "hindi_aliases": [
+      "जानवर को ढूंढो",
+      "जानवर को ढूंढो"
+    ],
+    "target_native_script": "ᱡᱤᱵᱽ ᱯᱟᱱᱛᱮᱭᱮ ᱢᱮ",
+    "target_transliteration_latin": "Jib panteye me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_113",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_POINT_RED",
+    "hindi_canonical": "लाल वाले पर उंगली रखो",
+    "hindi_normalized": "लाल वाले पर उंगली रखो",
+    "hindi_aliases": [
+      "लाल वाले पर उंगली रखो",
+      "लाल वाले पर उंगली रखो"
+    ],
+    "target_native_script": "ᱟᱨᱟᱜ ᱪᱮᱛᱟᱱ ᱨᱮ ᱴᱤᱯᱟᱹᱣ ᱢᱮ",
+    "target_transliteration_latin": "Arag chetan re tipaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_114",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_DESCRIBE",
+    "hindi_canonical": "चित्र में क्या दिखाई दे रहा है?",
+    "hindi_normalized": "चित्र में क्या दिखाई दे रहा है",
+    "hindi_aliases": [
+      "चित्र में क्या दिखाई दे रहा है?",
+      "चित्र में क्या दिखाई दे रहा है?"
+    ],
+    "target_native_script": "ᱪᱤᱛᱟᱹᱨ ᱨᱮ ᱪᱮᱫ ᱧᱮᱞᱚᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Chitar re ched nyelog kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_115",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_STORY",
+    "hindi_canonical": "चित्र की कहानी बताओ",
+    "hindi_normalized": "चित्र की कहानी बताओ",
+    "hindi_aliases": [
+      "चित्र की कहानी बताओ",
+      "चित्र की कहानी बताओ"
+    ],
+    "target_native_script": "ᱪᱤᱛᱟᱹᱨ ᱨᱮᱭᱟᱜ ᱠᱟᱹᱦᱱᱤ ᱞᱟᱹᱭ ᱢᱮ",
+    "target_transliteration_latin": "Chitar reyag kahni lay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_116",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_FIND_BIRD",
+    "hindi_canonical": "चिड़िया कहाँ है?",
+    "hindi_normalized": "चिड़िया कहाँ है",
+    "hindi_aliases": [
+      "चिड़िया कहाँ है?",
+      "चिड़िया कहाँ है?"
+    ],
+    "target_native_script": "ᱪᱮᱬᱮ ᱚᱠᱟᱨᱮ?",
+    "target_transliteration_latin": "Chene okare?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_117",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_SHOW_TREE",
+    "hindi_canonical": "पेड़ दिखाओ",
+    "hindi_normalized": "पेड़ दिखाओ",
+    "hindi_aliases": [
+      "पेड़ दिखाओ",
+      "पेड़ दिखाओ"
+    ],
+    "target_native_script": "ᱫᱟᱨᱮ ᱩᱫᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Dare udug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_118",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_YELLOW_FLOWER",
+    "hindi_canonical": "पीला फूल कौन सा है?",
+    "hindi_normalized": "पीला फूल कौन सा है",
+    "hindi_aliases": [
+      "पीला फूल कौन सा है?",
+      "पीला फूल कौन सा है?"
+    ],
+    "target_native_script": "ᱥᱟᱥᱟᱝ ᱵᱟᱦᱟ ᱚᱠᱟᱴᱟᱜ?",
+    "target_transliteration_latin": "Sasang baha okatag?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_119",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_FIND_SUN",
+    "hindi_canonical": "सूरज कहाँ चमक रहा है?",
+    "hindi_normalized": "सूरज कहाँ चमक रहा है",
+    "hindi_aliases": [
+      "सूरज कहाँ चमक रहा है?",
+      "सूरज कहाँ चमक रहा है?"
+    ],
+    "target_native_script": "ᱵᱮᱲᱟ ᱚᱠᱟᱨᱮ ᱛᱟᱨᱟᱥᱚᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Bera okare tarasog kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_120",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_FIND_RIVER",
+    "hindi_canonical": "नदी दिखाओ",
+    "hindi_normalized": "नदी दिखाओ",
+    "hindi_aliases": [
+      "नदी दिखाओ",
+      "नदी दिखाओ"
+    ],
+    "target_native_script": "ᱜᱟᱰᱟ ᱩᱫᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Gada udug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_121",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_POINT_HOUSE",
+    "hindi_canonical": "घर पर उंगली रखो",
+    "hindi_normalized": "घर पर उंगली रखो",
+    "hindi_aliases": [
+      "घर पर उंगली रखो",
+      "घर पर उंगली रखो"
+    ],
+    "target_native_script": "ᱚᱲᱟᱜ ᱨᱮ ᱴᱤᱯᱟᱹᱣ ᱢᱮ",
+    "target_transliteration_latin": "Orag re tipaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_122",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_BIG_ELEPHANT",
+    "hindi_canonical": "बड़ा हाथी कौन सा है?",
+    "hindi_normalized": "बड़ा हाथी कौन सा है",
+    "hindi_aliases": [
+      "बड़ा हाथी कौन सा है?",
+      "बड़ा हाथी कौन सा है?"
+    ],
+    "target_native_script": "ᱢᱟᱨᱟᱝ ᱦᱟᱹᱛᱤ ᱚᱠᱟᱴᱟᱜ?",
+    "target_transliteration_latin": "Marang hati okatag?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_123",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_SMALL_MONKEY",
+    "hindi_canonical": "छोटा बंदर कौन सा है?",
+    "hindi_normalized": "छोटा बंदर कौन सा है",
+    "hindi_aliases": [
+      "छोटा बंदर कौन सा है?",
+      "छोटा बंदर कौन सा है?"
+    ],
+    "target_native_script": "ᱦᱩᱰᱤᱧ ᱜᱟᱹᱲᱤ ᱚᱠᱟᱴᱟᱜ?",
+    "target_transliteration_latin": "Hudinj gari okatag?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_124",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_BOAT_WATER",
+    "hindi_canonical": "नाव कहाँ तैर रही है?",
+    "hindi_normalized": "नाव कहाँ तैर रही है",
+    "hindi_aliases": [
+      "नाव कहाँ तैर रही है?",
+      "नाव कहाँ तैर रही है?"
+    ],
+    "target_native_script": "ᱞᱟᱹᱣᱠᱟᱹ ᱚᱠᱟᱨᱮ ᱯᱟᱭᱨᱟᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Lawka okare payrag kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_125",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_RECOGNIZE_FISH",
+    "hindi_canonical": "मछली को पहचानो",
+    "hindi_normalized": "मछली को पहचानो",
+    "hindi_aliases": [
+      "मछली को पहचानो",
+      "मछली को पहचानो"
+    ],
+    "target_native_script": "ᱦᱟᱹᱠᱩ ᱩᱨᱩᱢ ᱢᱮ",
+    "target_transliteration_latin": "Haku urum me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_126",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_COW_COLOR",
+    "hindi_canonical": "गाय का रंग क्या है?",
+    "hindi_normalized": "गाय का रंग क्या है",
+    "hindi_aliases": [
+      "गाय का रंग क्या है?",
+      "गाय का रंग क्या है?"
+    ],
+    "target_native_script": "ᱜᱟᱹᱭᱟᱜ ᱨᱚᱝ ᱪᱮᱫ?",
+    "target_transliteration_latin": "Gayag rong ched?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_127",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_SKY_OBJECT",
+    "hindi_canonical": "आसमान में क्या है?",
+    "hindi_normalized": "आसमान में क्या है",
+    "hindi_aliases": [
+      "आसमान में क्या है?",
+      "आसमान में क्या है?"
+    ],
+    "target_native_script": "ᱥᱮᱨᱢᱟ ᱨᱮ ᱪᱮᱫ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "target_transliteration_latin": "Serma re ched menag-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_128",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_SHOW_MOUNTAIN",
+    "hindi_canonical": "पहाड़ दिखाओ",
+    "hindi_normalized": "पहाड़ दिखाओ",
+    "hindi_aliases": [
+      "पहाड़ दिखाओ",
+      "पहाड़ दिखाओ"
+    ],
+    "target_native_script": "ᱵᱩᱨᱩ ᱩᱫᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Buru udug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_129",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_ROAD_PATH",
+    "hindi_canonical": "रास्ता कहाँ जा रहा है?",
+    "hindi_normalized": "रास्ता कहाँ जा रहा है",
+    "hindi_aliases": [
+      "रास्ता कहाँ जा रहा है?",
+      "रास्ता कहाँ जा रहा है?"
+    ],
+    "target_native_script": "ᱦᱚᱨ ᱚᱠᱟ ᱛᱮ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Hor oka te chalag kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_130",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_ACTION_BOY",
+    "hindi_canonical": "बच्चा क्या कर रहा है?",
+    "hindi_normalized": "बच्चा क्या कर रहा है",
+    "hindi_aliases": [
+      "बच्चा क्या कर रहा है?",
+      "बच्चा क्या कर रहा है?"
+    ],
+    "target_native_script": "ᱜᱤᱫᱽᱨᱟᱹ ᱪᱮᱫ ᱮ ᱪᱤᱠᱟᱹᱭᱮᱫ-ᱟ?",
+    "target_transliteration_latin": "Gidra ched e chikayed-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_131",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_ACTION_GIRL",
+    "hindi_canonical": "लड़की कहाँ खड़ी है?",
+    "hindi_normalized": "लड़की कहाँ खड़ी है",
+    "hindi_aliases": [
+      "लड़की कहाँ खड़ी है?",
+      "लड़की कहाँ खड़ी है?"
+    ],
+    "target_native_script": "ᱠᱩᱲᱤ ᱜᱤᱫᱽᱨᱟᱹ ᱚᱠᱟᱨᱮ ᱛᱤᱸᱜᱩ ᱟᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Kuri gidra okare tingu akana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_132",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_FIND_BALL",
+    "hindi_canonical": "गेंद कहाँ है?",
+    "hindi_normalized": "गेंद कहाँ है",
+    "hindi_aliases": [
+      "गेंद कहाँ है?",
+      "गेंद कहाँ है?"
+    ],
+    "target_native_script": "ᱵᱚᱞ ᱚᱠᱟᱨᱮ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "target_transliteration_latin": "Bol okare menag-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_133",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_DOG_EATING",
+    "hindi_canonical": "कुत्ता क्या खा रहा है?",
+    "hindi_normalized": "कुत्ता क्या खा रहा है",
+    "hindi_aliases": [
+      "कुत्ता क्या खा रहा है?",
+      "कुत्ता क्या खा रहा है?"
+    ],
+    "target_native_script": "ᱥᱮᱛᱟ ᱪᱮᱫ ᱮ ᱡᱚᱢᱮᱫ-ᱟ?",
+    "target_transliteration_latin": "Seta ched e jomed-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_134",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_LEAF_COLOR",
+    "hindi_canonical": "पत्ता किस रंग का है?",
+    "hindi_normalized": "पत्ता किस रंग का है",
+    "hindi_aliases": [
+      "पत्ता किस रंग का है?",
+      "पत्ता किस रंग का है?"
+    ],
+    "target_native_script": "ᱥᱟᱠᱟᱢ ᱪᱮᱫ ᱨᱚᱝ ᱠᱟᱱᱟ?",
+    "target_transliteration_latin": "Sakam ched rong kana?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_135",
+    "category": "PICTURE_ACTIVITIES",
+    "intent": "PICTURE_SHOW_BUTTERFLY",
+    "hindi_canonical": "तितली दिखाओ",
+    "hindi_normalized": "तितली दिखाओ",
+    "hindi_aliases": [
+      "तितली दिखाओ",
+      "तितली दिखाओ"
+    ],
+    "target_native_script": "ᱯᱤᱯᱤᱲᱤᱭᱟᱹᱝ ᱩᱫᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Pipiriyang udug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_136",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_1_TO_5",
+    "hindi_canonical": "मेरे साथ एक से पाँच तक गिनो",
+    "hindi_normalized": "मेरे साथ एक से पाँच तक गिनो",
+    "hindi_aliases": [
+      "मेरे साथ एक से पाँच तक गिनो",
+      "मेरे साथ एक से पाँच तक गिनो"
+    ],
+    "target_native_script": "ᱤᱧ ᱥᱟᱶᱛᱮ ᱢᱤᱫ ᱠᱷᱚᱱ ᱢᱚᱬᱮ ᱫᱷᱟᱹᱵᱤᱡ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Inj sawte mid khon mone dhabij lekhay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_137",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_ALL",
+    "hindi_canonical": "सब मिलकर गिनो",
+    "hindi_normalized": "सब मिलकर गिनो",
+    "hindi_aliases": [
+      "सब मिलकर गिनो",
+      "सब मिलकर गिनो"
+    ],
+    "target_native_script": "ᱥᱟᱱᱟᱢ ᱠᱚ ᱢᱮᱥᱟ ᱠᱟᱛᱮ ᱞᱮᱠᱷᱟᱭ ᱯᱮ",
+    "target_transliteration_latin": "Sanam ko mesa kate lekhay pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_138",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_SHOW_THREE",
+    "hindi_canonical": "तीन उंगलियां दिखाओ",
+    "hindi_normalized": "तीन उंगलियां दिखाओ",
+    "hindi_aliases": [
+      "तीन उंगलियां दिखाओ",
+      "तीन उंगलियां दिखाओ"
+    ],
+    "target_native_script": "ᱯᱮᱭᱟ ᱛᱤ-ᱠᱟᱹᱴᱩᱵ ᱩᱫᱩᱜ ᱢᱮ",
+    "target_transliteration_latin": "Peya ti-katub udug me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_139",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_HOW_MANY_FINGERS",
+    "hindi_canonical": "कितनी उंगलियां हैं?",
+    "hindi_normalized": "कितनी उंगलियां हैं",
+    "hindi_aliases": [
+      "कितनी उंगलियां हैं?",
+      "कितनी उंगलियां हैं?"
+    ],
+    "target_native_script": "ᱛᱤᱱᱟᱹᱜ ᱠᱟᱹᱴᱩᱵ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "target_transliteration_latin": "Tinag katub menag-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_140",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_APPLES",
+    "hindi_canonical": "सेब गिनो",
+    "hindi_normalized": "सेब गिनो",
+    "hindi_aliases": [
+      "सेब गिनो",
+      "सेब गिनो"
+    ],
+    "target_native_script": "ᱥᱮᱣ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Sew lekhay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_141",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_ADD_ONE",
+    "hindi_canonical": "एक और जोड़ो",
+    "hindi_normalized": "एक और जोड़ो",
+    "hindi_aliases": [
+      "एक और जोड़ो",
+      "एक और जोड़ो"
+    ],
+    "target_native_script": "ᱟᱨ ᱢᱤᱫᱴᱟᱹᱝ ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Ar midtang joraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_142",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_AFTER_TWO",
+    "hindi_canonical": "दो के बाद क्या आता है?",
+    "hindi_normalized": "दो के बाद क्या आता है",
+    "hindi_aliases": [
+      "दो के बाद क्या आता है?",
+      "दो के बाद क्या आता है?"
+    ],
+    "target_native_script": "ᱵᱟᱨ ᱛᱟᱭᱚᱢ ᱪᱮᱫ ᱦᱤᱡᱩᱜ-ᱟ?",
+    "target_transliteration_latin": "Bar tayom ched hijug-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_143",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_BEFORE_FOUR",
+    "hindi_canonical": "चार से पहले क्या आता है?",
+    "hindi_normalized": "चार से पहले क्या आता है",
+    "hindi_aliases": [
+      "चार से पहले क्या आता है?",
+      "चार से पहले क्या आता है?"
+    ],
+    "target_native_script": "ᱯᱩᱱ ᱞᱟᱦᱟ ᱨᱮ ᱪᱮᱫ ᱦᱤᱡᱩᱜ-ᱟ?",
+    "target_transliteration_latin": "Pun laha re ched hijug-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_144",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_CLAP_FIVE",
+    "hindi_canonical": "पांच बार ताली बजाओ",
+    "hindi_normalized": "पांच बार ताली बजाओ",
+    "hindi_aliases": [
+      "पांच बार ताली बजाओ",
+      "पांच बार ताली बजाओ"
+    ],
+    "target_native_script": "ᱢᱚᱬᱮ ᱫᱷᱟᱣ ᱛᱟᱦᱨᱤ ᱢᱮ",
+    "target_transliteration_latin": "Mone dhaw thari me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_145",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_JUMP_THREE",
+    "hindi_canonical": "तीन बार कूदो",
+    "hindi_normalized": "तीन बार कूदो",
+    "hindi_aliases": [
+      "तीन बार कूदो",
+      "तीन बार कूदो"
+    ],
+    "target_native_script": "ᱯᱮ ᱫᱷᱟᱣ ᱫᱚᱱ ᱢᱮ",
+    "target_transliteration_latin": "Pe dhaw don me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_146",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_1",
+    "hindi_canonical": "एक",
+    "hindi_normalized": "एक",
+    "hindi_aliases": [
+      "एक",
+      "एक"
+    ],
+    "target_native_script": "ᱢᱤᱫ",
+    "target_transliteration_latin": "Mid",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_147",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_2",
+    "hindi_canonical": "दो",
+    "hindi_normalized": "दो",
+    "hindi_aliases": [
+      "दो",
+      "दो"
+    ],
+    "target_native_script": "ᱵᱟᱨ",
+    "target_transliteration_latin": "Bar",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_148",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_3",
+    "hindi_canonical": "तीन",
+    "hindi_normalized": "तीन",
+    "hindi_aliases": [
+      "तीन",
+      "तीन"
+    ],
+    "target_native_script": "ᱯᱮ",
+    "target_transliteration_latin": "Pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_149",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_4",
+    "hindi_canonical": "चार",
+    "hindi_normalized": "चार",
+    "hindi_aliases": [
+      "चार",
+      "चार"
+    ],
+    "target_native_script": "ᱯᱩᱱ",
+    "target_transliteration_latin": "Pun",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_150",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_5",
+    "hindi_canonical": "पांच",
+    "hindi_normalized": "पांच",
+    "hindi_aliases": [
+      "पांच",
+      "पांच"
+    ],
+    "target_native_script": "ᱢᱚᱬᱮ",
+    "target_transliteration_latin": "Mone",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_151",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_6",
+    "hindi_canonical": "छह",
+    "hindi_normalized": "छह",
+    "hindi_aliases": [
+      "छह",
+      "छह"
+    ],
+    "target_native_script": "ᱛᱩᱨᱩᱭ",
+    "target_transliteration_latin": "Turuy",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_152",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_7",
+    "hindi_canonical": "सात",
+    "hindi_normalized": "सात",
+    "hindi_aliases": [
+      "सात",
+      "सात"
+    ],
+    "target_native_script": "ᱮᱭᱟᱭ",
+    "target_transliteration_latin": "Eyay",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_153",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_8",
+    "hindi_canonical": "आठ",
+    "hindi_normalized": "आठ",
+    "hindi_aliases": [
+      "आठ",
+      "आठ"
+    ],
+    "target_native_script": "ᱤᱨᱟᱹᱞ",
+    "target_transliteration_latin": "Iral",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_154",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_9",
+    "hindi_canonical": "नौ",
+    "hindi_normalized": "नौ",
+    "hindi_aliases": [
+      "नौ",
+      "नौ"
+    ],
+    "target_native_script": "ᱟᱨᱮ",
+    "target_transliteration_latin": "Are",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_155",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_DIGIT_10",
+    "hindi_canonical": "दस",
+    "hindi_normalized": "दस",
+    "hindi_aliases": [
+      "दस",
+      "दस"
+    ],
+    "target_native_script": "ᱜᱮᱞ",
+    "target_transliteration_latin": "Gel",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_156",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_WHICH_GROUP_BIGGER",
+    "hindi_canonical": "कौन सा समूह बड़ा है?",
+    "hindi_normalized": "कौन सा समूह बड़ा है",
+    "hindi_aliases": [
+      "कौन सा समूह बड़ा है?",
+      "कौन सा समूह बड़ा है?"
+    ],
+    "target_native_script": "ᱚᱠᱟ ᱫᱚᱞ ᱫᱚ ᱢᱟᱨᱟᱝ ᱜᱮᱭᱟ?",
+    "target_transliteration_latin": "Oka dol do marang geya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_157",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_SEPARATE_TWO",
+    "hindi_canonical": "दो गेंदें अलग करो",
+    "hindi_normalized": "दो गेंदें अलग करो",
+    "hindi_aliases": [
+      "दो गेंदें अलग करो",
+      "दो गेंदें अलगें"
+    ],
+    "target_native_script": "ᱵᱟᱨᱭᱟ ᱵᱚᱞ ᱵᱷᱮᱜᱟᱨ ᱢᱮ",
+    "target_transliteration_latin": "Barya bol bhegar me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_158",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_SUBTRACT_ONE",
+    "hindi_canonical": "एक कम करो",
+    "hindi_normalized": "एक कम करो",
+    "hindi_aliases": [
+      "एक कम करो",
+      "एक कमें"
+    ],
+    "target_native_script": "ᱢᱤᱫᱴᱟᱹᱝ ᱠᱚᱢ ᱢᱮ",
+    "target_transliteration_latin": "Midtang kom me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_159",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_ZERO_CONCEPT",
+    "hindi_canonical": "शून्य का अर्थ कुछ नहीं",
+    "hindi_normalized": "शून्य का अर्थ कुछ नहीं",
+    "hindi_aliases": [
+      "शून्य का अर्थ कुछ नहीं",
+      "शून्य का अर्थ कुछ नहीं"
+    ],
+    "target_native_script": "ᱥᱩᱱ ᱨᱮᱭᱟᱜ ᱢᱮᱱᱮᱛ ᱫᱚ ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ",
+    "target_transliteration_latin": "Sun reyag menet do ched ho bang",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_160",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_PENCILS",
+    "hindi_canonical": "पेंसिल गिन कर बताओ",
+    "hindi_normalized": "पेंसिल गिन कर बताओ",
+    "hindi_aliases": [
+      "पेंसिल गिन कर बताओ",
+      "पेंसिल गिन कर बताओ"
+    ],
+    "target_native_script": "ᱯᱮᱱᱥᱤᱞ ᱞᱮᱠᱷᱟ ᱠᱟᱛᱮ ᱞᱟᱹᱭ ᱢᱮ",
+    "target_transliteration_latin": "Pencil lekha kate lay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_161",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_BACKWARDS",
+    "hindi_canonical": "दस तक उल्टी गिनती करो",
+    "hindi_normalized": "दस तक उल्टी गिनती करो",
+    "hindi_aliases": [
+      "दस तक उल्टी गिनती करो",
+      "दस तक उल्टी गिनतीें"
+    ],
+    "target_native_script": "ᱜᱮᱞ ᱠᱷᱚᱱ ᱩᱞᱴᱟᱹ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Gel khon ulta lekhay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_162",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_COUNT_CHILDREN",
+    "hindi_canonical": "कितने बच्चे हैं?",
+    "hindi_normalized": "कितने बच्चे हैं",
+    "hindi_aliases": [
+      "कितने बच्चे हैं?",
+      "कितने बच्चे हैं?"
+    ],
+    "target_native_script": "ᱛᱤᱱᱟᱹᱜ ᱜᱤᱫᱽᱨᱟᱹ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ?",
+    "target_transliteration_latin": "Tinag gidra menag kowa?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_163",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_MAKE_PAIRS",
+    "hindi_canonical": "जोड़ा बनाओ",
+    "hindi_normalized": "जोड़ा बनाओ",
+    "hindi_aliases": [
+      "जोड़ा बनाओ",
+      "जोड़ा बनाओ"
+    ],
+    "target_native_script": "ᱡᱚᱲ ᱵᱮᱱᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Jor benaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_164",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_WRITE_NUMBER",
+    "hindi_canonical": "संख्या लिखो",
+    "hindi_normalized": "संख्या लिखो",
+    "hindi_aliases": [
+      "संख्या लिखो",
+      "संख्या लिखो"
+    ],
+    "target_native_script": "ᱮᱞᱠᱷᱟ ᱚᱞ ᱢᱮ",
+    "target_transliteration_latin": "Elkha ol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_165",
+    "category": "NUMBER_ACTIVITIES",
+    "intent": "NUM_RECOGNIZE_NUMBER",
+    "hindi_canonical": "संख्या पहचानो",
+    "hindi_normalized": "संख्या पहचानो",
+    "hindi_aliases": [
+      "संख्या पहचानो",
+      "संख्या पहचानो"
+    ],
+    "target_native_script": "ᱮᱞᱠᱷᱟ ᱩᱨᱩᱢ ᱢᱮ",
+    "target_transliteration_latin": "Elkha urum me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_166",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_CHOOSE_CORRECT",
+    "hindi_canonical": "सही उत्तर चुनो",
+    "hindi_normalized": "सही उत्तर चुनो",
+    "hindi_aliases": [
+      "सही उत्तर चुनो",
+      "सही उत्तर चुनो"
+    ],
+    "target_native_script": "ᱥᱟᱹᱨᱤ ᱛᱮᱞᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Sari tela bachhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_167",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_CIRCLE_ANSWER",
+    "hindi_canonical": "उत्तर पर गोला लगाओ",
+    "hindi_normalized": "उत्तर पर गोला लगाओ",
+    "hindi_aliases": [
+      "उत्तर पर गोला लगाओ",
+      "उत्तर पर गोला लगाओ"
+    ],
+    "target_native_script": "ᱛᱮᱞᱟ ᱨᱮ ᱜᱳᱞ ᱢᱮ",
+    "target_transliteration_latin": "Tela re gol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_168",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_RAISE_HAND",
+    "hindi_canonical": "अपना हाथ उठाओ",
+    "hindi_normalized": "अपना हाथ उठाओ",
+    "hindi_aliases": [
+      "अपना हाथ उठाओ",
+      "अपना हाथ उठाओ"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱛᱤ ᱛᱩᱞ ᱢᱮ",
+    "target_transliteration_latin": "Amag ti tul me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_169",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_TELL_ANSWER",
+    "hindi_canonical": "मुझे उत्तर बताओ",
+    "hindi_normalized": "मुझे उत्तर बताओ",
+    "hindi_aliases": [
+      "मुझे उत्तर बताओ",
+      "मुझे उत्तर बताओ"
+    ],
+    "target_native_script": "ᱤᱧ ᱛᱮᱞᱟ ᱞᱟᱹᱭᱟᱹᱧ ᱢᱮ",
+    "target_transliteration_latin": "Inj tela layanj me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_170",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_MATCH_PAIR",
+    "hindi_canonical": "जोड़ी मिलाओ",
+    "hindi_normalized": "जोड़ी मिलाओ",
+    "hindi_aliases": [
+      "जोड़ी मिलाओ",
+      "जोड़ी मिलाओ"
+    ],
+    "target_native_script": "ᱡᱚᱲ ᱢᱤᱞᱟᱹᱣ ᱢᱮ",
+    "target_transliteration_latin": "Jor milaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_171",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_TICK_RIGHT",
+    "hindi_canonical": "सही पर टिक लगाओ",
+    "hindi_normalized": "सही पर टिक लगाओ",
+    "hindi_aliases": [
+      "सही पर टिक लगाओ",
+      "सही पर टिक लगाओ"
+    ],
+    "target_native_script": "ᱥᱟᱹᱨᱤ ᱨᱮ ᱴᱤᱠ ᱪᱤᱱᱦᱟᱹ ᱮᱢ ᱢᱮ",
+    "target_transliteration_latin": "Sari re tik chinha em me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_172",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_CROSS_WRONG",
+    "hindi_canonical": "गलत पर क्रॉस लगाओ",
+    "hindi_normalized": "गलत पर क्रॉस लगाओ",
+    "hindi_aliases": [
+      "गलत पर क्रॉस लगाओ",
+      "गलत पर क्रॉस लगाओ"
+    ],
+    "target_native_script": "ᱵᱟᱹᱲᱤᱡ ᱨᱮ ᱠᱨᱚᱥ ᱪᱤᱱᱦᱟᱹ ᱮᱢ ᱢᱮ",
+    "target_transliteration_latin": "Barij re kros chinha em me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_173",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_WRITE_NAME",
+    "hindi_canonical": "अपना नाम लिखो",
+    "hindi_normalized": "अपना नाम लिखो",
+    "hindi_aliases": [
+      "अपना नाम लिखो",
+      "अपना नाम लिखो"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ",
+    "target_transliteration_latin": "Amag nyutum ol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_174",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_WRITE_DATE",
+    "hindi_canonical": "तारीख लिखो",
+    "hindi_normalized": "तारीख लिखो",
+    "hindi_aliases": [
+      "तारीख लिखो",
+      "तारीख लिखो"
+    ],
+    "target_native_script": "ᱢᱟᱹᱦᱤᱛ ᱚᱞ ᱢᱮ",
+    "target_transliteration_latin": "Mahit ol me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_175",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_FILL_BLANK",
+    "hindi_canonical": "खाली जगह भरो",
+    "hindi_normalized": "खाली जगह भरो",
+    "hindi_aliases": [
+      "खाली जगह भरो",
+      "खाली जगह भरो"
+    ],
+    "target_native_script": "ᱠᱷᱟᱹᱞᱤ ᱴᱷᱟᱶ ᱯᱮᱨᱮᱡ ᱢᱮ",
+    "target_transliteration_latin": "Khali thaw perej me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_176",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_FIRST_QUESTION",
+    "hindi_canonical": "पहला सवाल देखो",
+    "hindi_normalized": "पहला सवाल देखो",
+    "hindi_aliases": [
+      "पहला सवाल देखो",
+      "पहला सवाल देखो"
+    ],
+    "target_native_script": "ᱯᱩᱭᱞᱩ ᱠᱩᱠᱞᱤ ᱧᱮᱞ ᱢᱮ",
+    "target_transliteration_latin": "Puylu kukli nyel me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_177",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_SECOND_QUESTION",
+    "hindi_canonical": "दूसरा सवाल पढ़ो",
+    "hindi_normalized": "दूसरा सवाल पढ़ो",
+    "hindi_aliases": [
+      "दूसरा सवाल पढ़ो",
+      "दूसरा सवाल पढ़ो"
+    ],
+    "target_native_script": "ᱫᱚᱥᱟᱨ ᱠᱩᱠᱞᱤ ᱯᱟᱲᱦᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Dosar kukli parhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_178",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_LAST_QUESTION",
+    "hindi_canonical": "अंतिम प्रश्न हल करो",
+    "hindi_normalized": "अंतिम प्रश्न हल करो",
+    "hindi_aliases": [
+      "अंतिम प्रश्न हल करो",
+      "अंतिम प्रश्न हलें"
+    ],
+    "target_native_script": "ᱢᱩᱪᱟᱹᱫ ᱠᱩᱠᱞᱤ ᱥᱚᱞᱦᱮ ᱢᱮ",
+    "target_transliteration_latin": "Muchad kukli solhe me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_179",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_SUBMIT_COPY",
+    "hindi_canonical": "अपनी कॉपी जमा करो",
+    "hindi_normalized": "अपनी कॉपी जमा करो",
+    "hindi_aliases": [
+      "अपनी कॉपी जमा करो",
+      "अपनी कॉपी जमाें"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱠᱷᱟᱛᱟ ᱡᱚᱢᱟᱭ ᱢᱮ",
+    "target_transliteration_latin": "Amag khata jomay me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_180",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_CHECK_WORK",
+    "hindi_canonical": "जाँच कर लो",
+    "hindi_normalized": "जाँच कर लो",
+    "hindi_aliases": [
+      "जाँच कर लो",
+      "जाँच कर लो"
+    ],
+    "target_native_script": "ᱯᱚᱨᱚᱠ ᱢᱮ",
+    "target_transliteration_latin": "Porok me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_181",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_READ_AGAIN",
+    "hindi_canonical": "दोबारा पढ़ो",
+    "hindi_normalized": "दोबारा पढ़ो",
+    "hindi_aliases": [
+      "दोबारा पढ़ो",
+      "दोबारा पढ़ो"
+    ],
+    "target_native_script": "ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Arho parhaw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_182",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_DID_ALL_FINISH",
+    "hindi_canonical": "क्या सबने कर लिया?",
+    "hindi_normalized": "क्या सबने कर लिया",
+    "hindi_aliases": [
+      "क्या सबने कर लिया?",
+      "क्या सबने कर लिया?"
+    ],
+    "target_native_script": "ᱪᱮᱫ ᱥᱟᱱᱟᱢ ᱠᱚ ᱠᱟᱹᱢᱤ ᱯᱮ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫ-ᱟ?",
+    "target_transliteration_latin": "Ched sanam ko kami pe puraw ked-a?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_183",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_NO_HELPING",
+    "hindi_canonical": "एक दूसरे की मदद मत करो",
+    "hindi_normalized": "एक दूसरे की मदद मत करो",
+    "hindi_aliases": [
+      "एक दूसरे की मदद मत करो",
+      "एक दूसरे की मदद मतें"
+    ],
+    "target_native_script": "ᱢᱤᱫ ᱟᱨ ᱢᱤᱫ ᱟᱞᱚᱯᱮ ᱜᱚᱲᱚᱣᱟᱭᱟ",
+    "target_transliteration_latin": "Mid ar mid alope gorowaya",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_184",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_TIME_UP",
+    "hindi_canonical": "समय समाप्त हो गया",
+    "hindi_normalized": "समय समाप्त हो गया",
+    "hindi_aliases": [
+      "समय समाप्त हो गया",
+      "समय समाप्त हो गया"
+    ],
+    "target_native_script": "ᱚᱠᱛᱚ ᱪᱟᱵᱟ ᱮᱱᱟ",
+    "target_transliteration_latin": "Okto chaba ena",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_185",
+    "category": "ASSESSMENT",
+    "intent": "ASSESS_GOOD_MARKS",
+    "hindi_canonical": "बहुत अच्छे अंक आए",
+    "hindi_normalized": "बहुत अच्छे अंक आए",
+    "hindi_aliases": [
+      "बहुत अच्छे अंक आए",
+      "बहुत अच्छे अंक आए"
+    ],
+    "target_native_script": "ᱟᱹᱰᱤ ᱵᱮᱥ ᱱᱚᱢᱵᱚᱨ ᱦᱮᱡ ᱮᱱᱟ",
+    "target_transliteration_latin": "Adi bes nombor hej ena",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_186",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_JOHAR",
+    "hindi_canonical": "नमस्ते / जोहार",
+    "hindi_normalized": "नमस्ते / जोहार",
+    "hindi_aliases": [
+      "नमस्ते / जोहार",
+      "नमस्ते / जोहार"
+    ],
+    "target_native_script": "ᱡᱚᱦᱟᱨ",
+    "target_transliteration_latin": "Johar",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_187",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_GOOD_MORNING",
+    "hindi_canonical": "सुप्रभात",
+    "hindi_normalized": "सुप्रभात",
+    "hindi_aliases": [
+      "सुप्रभात",
+      "सुप्रभात"
+    ],
+    "target_native_script": "ᱥᱟᱹᱜᱩᱱ ᱥᱮᱛᱟᱜ",
+    "target_transliteration_latin": "Sagun setag",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_188",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_GOOD_AFTERNOON",
+    "hindi_canonical": "शुभ दोपहर",
+    "hindi_normalized": "शुभ दोपहर",
+    "hindi_aliases": [
+      "शुभ दोपहर",
+      "शुभ दोपहर"
+    ],
+    "target_native_script": "ᱥᱟᱹᱜᱩᱱ ᱛᱤᱠᱤᱱ",
+    "target_transliteration_latin": "Sagun tikin",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_189",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_GOOD_EVENING",
+    "hindi_canonical": "शुभ संध्या",
+    "hindi_normalized": "शुभ संध्या",
+    "hindi_aliases": [
+      "शुभ संध्या",
+      "शुभ संध्या"
+    ],
+    "target_native_script": "ᱥᱟᱹᱜᱩᱱ ᱟᱹᱭᱩᱵ",
+    "target_transliteration_latin": "Sagun ayub",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_190",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_GOOD_NIGHT",
+    "hindi_canonical": "शुभ रात्रि",
+    "hindi_normalized": "शुभ रात्रि",
+    "hindi_aliases": [
+      "शुभ रात्रि",
+      "शुभ रात्रि"
+    ],
+    "target_native_script": "ᱥᱟᱹᱜᱩᱱ ᱧᱤᱫᱟᱹ",
+    "target_transliteration_latin": "Sagun nyida",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_191",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_HOW_ARE_YOU",
+    "hindi_canonical": "आप सब कैसे हैं?",
+    "hindi_normalized": "आप सब कैसे हैं",
+    "hindi_aliases": [
+      "आप सब कैसे हैं?",
+      "आप सब कैसे हैं?"
+    ],
+    "target_native_script": "ᱟᱯᱮ ᱠᱚ ᱪᱮᱫ ᱞᱮᱠᱟ ᱢᱮᱱᱟᱜ ᱯᱮᱭᱟ?",
+    "target_transliteration_latin": "Ape ko ched leka menag peya?",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_192",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "GREET_I_AM_FINE",
+    "hindi_canonical": "मैं ठीक हूँ",
+    "hindi_normalized": "मैं ठीक हूँ",
+    "hindi_aliases": [
+      "मैं ठीक हूँ",
+      "मैं ठीक हूँ"
+    ],
+    "target_native_script": "ᱤᱧ ᱫᱚ ᱵᱮᱥ ᱜᱮ ᱢᱮᱱᱟᱹᱧᱟ",
+    "target_transliteration_latin": "Inj do bes ge menanya",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_193",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_LETS_BEGIN",
+    "hindi_canonical": "आइए, शुरू करते हैं",
+    "hindi_normalized": "आइए, शुरू करते हैं",
+    "hindi_aliases": [
+      "आइए, शुरू करते हैं",
+      "आइए, शुरू करते हैं"
+    ],
+    "target_native_script": "ᱫᱮᱞᱟᱵᱚᱱ, ᱮᱛᱚᱦᱚᱵ-ᱟ",
+    "target_transliteration_latin": "Delabon, etohob-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_194",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_NOW_WE_READ",
+    "hindi_canonical": "अब हम पढ़ेंगे",
+    "hindi_normalized": "अब हम पढ़ेंगे",
+    "hindi_aliases": [
+      "अब हम पढ़ेंगे",
+      "अब हम पढ़ेंगे"
+    ],
+    "target_native_script": "ᱱᱤᱛᱚᱜ ᱵᱚ ᱯᱟᱲᱦᱟᱣ-ᱟ",
+    "target_transliteration_latin": "Nitog bo parhaw-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_195",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_NOW_WE_SING",
+    "hindi_canonical": "अब हम गाएंगे",
+    "hindi_normalized": "अब हम गाएंगे",
+    "hindi_aliases": [
+      "अब हम गाएंगे",
+      "अब हम गाएंगे"
+    ],
+    "target_native_script": "ᱱᱤᱛᱚᱜ ᱵᱚ ᱥᱮᱨᱮᱧ-ᱟ",
+    "target_transliteration_latin": "Nitog bo serenj-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_196",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_NOW_WE_PLAY",
+    "hindi_canonical": "अब हम खेलेंगे",
+    "hindi_normalized": "अब हम खेलेंगे",
+    "hindi_aliases": [
+      "अब हम खेलेंगे",
+      "अब हम खेलेंगे"
+    ],
+    "target_native_script": "ᱱᱤᱛᱚᱜ ᱵᱚ ᱮᱱᱮᱡ-ᱟ",
+    "target_transliteration_latin": "Nitog bo enej-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_197",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_CLASS_OVER",
+    "hindi_canonical": "कक्षा समाप्त हुई",
+    "hindi_normalized": "कक्षा समाप्त हुई",
+    "hindi_aliases": [
+      "कक्षा समाप्त हुई",
+      "कक्षा समाप्त हुई"
+    ],
+    "target_native_script": "ᱠᱞᱟᱥ ᱪᱟᱵᱟ ᱮᱱᱟ",
+    "target_transliteration_latin": "Class chaba ena",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_198",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_PACK_BAGS",
+    "hindi_canonical": "अपना बस्ता समेटो",
+    "hindi_normalized": "अपना बस्ता समेटो",
+    "hindi_aliases": [
+      "अपना बस्ता समेटो",
+      "अपना बस्ता समेटो"
+    ],
+    "target_native_script": "ᱟᱢᱟᱜ ᱡᱷᱳᱞᱟ ᱥᱟᱢᱵᱲᱟᱣ ᱢᱮ",
+    "target_transliteration_latin": "Amag jhola sambraw me",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_199",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_SEE_TOMORROW",
+    "hindi_canonical": "कल मिलेंगे",
+    "hindi_normalized": "कल मिलेंगे",
+    "hindi_aliases": [
+      "कल मिलेंगे",
+      "कल मिलेंगे"
+    ],
+    "target_native_script": "ᱜᱟᱯᱟ ᱵᱚ ᱧᱟᱯᱟᱢ-ᱟ",
+    "target_transliteration_latin": "Gapa bo nyapam-a",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "exp_ph_200",
+    "category": "GREETING_AND_TRANSITION",
+    "intent": "TRANS_GO_SAFE",
+    "hindi_canonical": "घर सुरक्षित जाओ",
+    "hindi_normalized": "घर सुरक्षित जाओ",
+    "hindi_aliases": [
+      "घर सुरक्षितिए",
+      "घर सुरक्षित जाओ"
+    ],
+    "target_native_script": "ᱚᱲᱟᱜ ᱥᱩᱠᱷ ᱛᱮ ᱪᱟᱞᱟᱜ ᱯᱮ",
+    "target_transliteration_latin": "Orag sukh te chalag pe",
+    "dialect_profile": {
+      "primary_dialect": "mayurbhanj",
+      "supported_dialects": [
+        "mayurbhanj",
+        "santhal_pargana"
+      ],
+      "status": "CANONICAL"
+    },
+    "audio_path": null,
+    "audio_status": "PENDING_RECORDING",
+    "verification_status": "PENDING_VALIDATION",
+    "provenance": "PENDING_VALIDATION",
+    "difficulty_level": 1
+  }
+]

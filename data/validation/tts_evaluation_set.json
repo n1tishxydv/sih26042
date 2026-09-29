@@ -1,0 +1,277 @@
+{
+  "benchmark_name": "SIH26042 Santali Offline TTS Human Linguistic Evaluation Protocol",
+  "version": "1.0.0",
+  "target_language": "sat",
+  "target_script": "Ol Chiki",
+  "candidate_models_evaluated": [
+    {
+      "model_id": "ai4bharat/indic-parler-tts",
+      "architecture": "Autoregressive Transformer + DAC",
+      "mobile_feasibility_state": "AVAILABLE_BUT_MOBILE_UNVALIDATED",
+      "evaluation_status": "BENCHMARKED_DESKTOP_ONLY_TOO_LARGE_FOR_MOBILE"
+    },
+    {
+      "model_id": "meta/mms-tts-sat",
+      "architecture": "VITS",
+      "mobile_feasibility_state": "RESEARCH_ONLY",
+      "evaluation_status": "ROBOTIC_PROSODY_NOT_SUITABLE_FOR_GRADE1"
+    },
+    {
+      "model_id": "piper-tts",
+      "architecture": "VITS ONNX",
+      "mobile_feasibility_state": "NOT_AVAILABLE",
+      "evaluation_status": "NO_SANTALI_VOICE_EXISTS"
+    }
+  ],
+  "scoring_dimensions": [
+    "INTELLIGIBILITY (1-5: 1=completely incomprehensible, 5=crystal clear phonemes)",
+    "NATURALNESS (1-5: 1=severely robotic/glitched, 5=native speaker human prosody)",
+    "PRONUNCIATION (1-5: 1=wrong vowels/glottals, 5=authentic Santali phonology)",
+    "DIALECT_ACCEPTABILITY (1-5: 1=unnatural mixed dialect, 5=idiomatic regional standard)",
+    "CHILD_CLASSROOM_SUITABILITY (1-5: 1=frightening/confusing for Grade 1, 5=warm, encouraging teacher voice)"
+  ],
+  "total_sentences": 30,
+  "evaluation_records_status": "PENDING_FIELD_LISTENING_TRIALS",
+  "sentences": [
+    {
+      "id": "tts_eval_01",
+      "category": "short_command",
+      "hindi_prompt": "बैठ जाओ",
+      "santali_ol_chiki": "ᱫᱩᱲᱩᱵ ᱢᱮ",
+      "latin_transliteration": "Duṛub me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_02",
+      "category": "short_command",
+      "hindi_prompt": "खड़े हो जाओ",
+      "santali_ol_chiki": "ᱛᱤᱸᱜᱩᱱ ᱢᱮ",
+      "latin_transliteration": "Tingun me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_03",
+      "category": "short_command",
+      "hindi_prompt": "इधर आओ",
+      "santali_ol_chiki": "ᱱᱚᱰᱮ ᱦᱤᱡᱩᱜ ᱢᱮ",
+      "latin_transliteration": "Node hijug me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_04",
+      "category": "short_command",
+      "hindi_prompt": "शांत रहो",
+      "santali_ol_chiki": "ᱛᱷᱤᱨ ᱛᱟᱦᱮᱸᱱ ᱢᱮ",
+      "latin_transliteration": "Thir tahen me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_05",
+      "category": "short_command",
+      "hindi_prompt": "ताली बजाओ",
+      "santali_ol_chiki": "ᱛᱷᱟᱹᱭᱞᱤ ᱛᱟᱦᱨᱤ ᱢᱮ",
+      "latin_transliteration": "Thari me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_06",
+      "category": "question",
+      "hindi_prompt": "यह क्या है?",
+      "santali_ol_chiki": "ᱱᱚᱣᱟ ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?",
+      "latin_transliteration": "Nowa do ched kana?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_07",
+      "category": "question",
+      "hindi_prompt": "कितने हैं?",
+      "santali_ol_chiki": "ᱛᱤᱱᱟᱹᱜ ᱢᱮᱱᱟᱜ-ᱟ?",
+      "latin_transliteration": "Tinag menag-a?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_08",
+      "category": "question",
+      "hindi_prompt": "कौन उत्तर देगा?",
+      "santali_ol_chiki": "ᱚᱠᱚᱭ ᱛᱮᱞᱟᱭ ᱮᱢᱟ?",
+      "latin_transliteration": "Okoy telay ema?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_09",
+      "category": "question",
+      "hindi_prompt": "कौन सा बड़ा है?",
+      "santali_ol_chiki": "ᱚᱠᱟᱴᱟᱜ ᱫᱚ ᱢᱟᱨᱟᱝ ᱜᱮᱭᱟ?",
+      "latin_transliteration": "Okatag do marang geya?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_10",
+      "category": "question",
+      "hindi_prompt": "आपकी किताब कहां है?",
+      "santali_ol_chiki": "ᱟᱢᱟᱜ ᱯᱩᱛᱷᱤ ᱚᱠᱟᱨᱮ?",
+      "latin_transliteration": "Amag puthi okare?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_11",
+      "category": "praise",
+      "hindi_prompt": "बहुत अच्छा",
+      "santali_ol_chiki": "ᱟᱹᱰᱤ ᱵᱮᱥ",
+      "latin_transliteration": "Adi bes",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_12",
+      "category": "praise",
+      "hindi_prompt": "शाबाश",
+      "santali_ol_chiki": "ᱥᱟᱵᱟᱥ",
+      "latin_transliteration": "Sabas",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_13",
+      "category": "praise",
+      "hindi_prompt": "फिर से कोशिश करो",
+      "santali_ol_chiki": "ᱫᱚᱦᱲᱟ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ",
+      "latin_transliteration": "Dohra te chestay me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_14",
+      "category": "praise",
+      "hindi_prompt": "आप कर सकते हैं",
+      "santali_ol_chiki": "ᱟᱢ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ",
+      "latin_transliteration": "Am dareyag-am",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_15",
+      "category": "counting",
+      "hindi_prompt": "मेरे साथ एक से पाँच तक गिनो",
+      "santali_ol_chiki": "ᱤᱧ ᱥᱟᱶᱛᱮ ᱢᱤᱫ ᱠᱷᱚᱱ ᱢᱚᱬᱮ ᱫᱷᱟᱹᱵᱤᱡ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+      "latin_transliteration": "Inj sawte mid khon mone dhabij lekhay me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_16",
+      "category": "counting",
+      "hindi_prompt": "सब मिलकर गिनो",
+      "santali_ol_chiki": "ᱥᱟᱱᱟᱢ ᱠᱚ ᱢᱮᱥᱟ ᱠᱟᱛᱮ ᱞᱮᱠᱷᱟᱭ ᱯᱮ",
+      "latin_transliteration": "Sanam ko mesa kate lekhay pe",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_17",
+      "category": "counting",
+      "hindi_prompt": "तीन उंगलियां दिखाओ",
+      "santali_ol_chiki": "ᱯᱮᱭᱟ ᱛᱤ-ᱠᱟᱹᱴᱩᱵ ᱩᱫᱩᱜ ᱢᱮ",
+      "latin_transliteration": "Peya ti-katub udug me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_18",
+      "category": "counting",
+      "hindi_prompt": "पांच बार ताली बजाओ",
+      "santali_ol_chiki": "ᱢᱚᱬᱮ ᱫᱷᱟᱣ ᱛᱟᱦᱨᱤ ᱢᱮ",
+      "latin_transliteration": "Mone dhaw thari me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_19",
+      "category": "picture_instruction",
+      "hindi_prompt": "चित्र को ध्यान से देखो",
+      "santali_ol_chiki": "ᱪᱤᱛᱟᱹᱨ ᱫᱷᱮᱭᱟᱱ ᱛᱮ ᱧᱮᱞ ᱢᱮ",
+      "latin_transliteration": "Chitar dheyan te nyel me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_20",
+      "category": "picture_instruction",
+      "hindi_prompt": "जानवर को ढूंढो",
+      "santali_ol_chiki": "ᱡᱤᱵᱽ ᱯᱟᱱᱛᱮᱭᱮ ᱢᱮ",
+      "latin_transliteration": "Jib panteye me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_21",
+      "category": "picture_instruction",
+      "hindi_prompt": "लाल वाले पर उंगली रखो",
+      "santali_ol_chiki": "ᱟᱨᱟᱜ ᱪᱮᱛᱟᱱ ᱨᱮ ᱴᱤᱯᱟᱹᱣ ᱢᱮ",
+      "latin_transliteration": "Arag chetan re tipaw me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_22",
+      "category": "picture_instruction",
+      "hindi_prompt": "पेड़ दिखाओ",
+      "santali_ol_chiki": "ᱫᱟᱨᱮ ᱩᱫᱩᱜ ᱢᱮ",
+      "latin_transliteration": "Dare udug me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_23",
+      "category": "assessment",
+      "hindi_prompt": "सही उत्तर चुनो",
+      "santali_ol_chiki": "ᱥᱟᱹᱨᱤ ᱛᱮᱞᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+      "latin_transliteration": "Sari tela bachhaw me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_24",
+      "category": "assessment",
+      "hindi_prompt": "उत्तर पर गोला लगाओ",
+      "santali_ol_chiki": "ᱛᱮᱞᱟ ᱨᱮ ᱜᱳᱞ ᱢᱮ",
+      "latin_transliteration": "Tela re gol me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_25",
+      "category": "assessment",
+      "hindi_prompt": "अपना हाथ उठाओ",
+      "santali_ol_chiki": "ᱟᱢᱟᱜ ᱛᱤ ᱛᱩᱞ ᱢᱮ",
+      "latin_transliteration": "Amag ti tul me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_26",
+      "category": "assessment",
+      "hindi_prompt": "अपनी कॉपी जमा करो",
+      "santali_ol_chiki": "ᱟᱢᱟᱜ ᱠᱷᱟᱛᱟ ᱡᱚᱢᱟᱭ ᱢᱮ",
+      "latin_transliteration": "Amag khata jomay me",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_27",
+      "category": "conversational",
+      "hindi_prompt": "नमस्ते / जोहार",
+      "santali_ol_chiki": "ᱡᱚᱦᱟᱨ",
+      "latin_transliteration": "Johar",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_28",
+      "category": "conversational",
+      "hindi_prompt": "सुप्रभात",
+      "santali_ol_chiki": "ᱥᱟᱹᱜᱩᱱ ᱥᱮᱛᱟᱜ",
+      "latin_transliteration": "Sagun setag",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_29",
+      "category": "conversational",
+      "hindi_prompt": "आप सब कैसे हैं?",
+      "santali_ol_chiki": "ᱟᱯᱮ ᱠᱚ ᱪᱮᱫ ᱞᱮᱠᱟ ᱢᱮᱱᱟᱜ ᱯᱮᱭᱟ?",
+      "latin_transliteration": "Ape ko ched leka menag peya?",
+      "evaluations": []
+    },
+    {
+      "id": "tts_eval_30",
+      "category": "conversational",
+      "hindi_prompt": "कल मिलेंगे",
+      "santali_ol_chiki": "ᱜᱟᱯᱟ ᱵᱚ ᱧᱟᱯᱟᱢ-ᱟ",
+      "latin_transliteration": "Gapa bo nyapam-a",
+      "evaluations": []
+    }
+  ]
+}

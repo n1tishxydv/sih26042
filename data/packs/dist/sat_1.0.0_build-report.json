@@ -1,0 +1,23 @@
+{
+  "pack_id": "lang-pack-sat-olck-v1",
+  "language_code": "sat",
+  "language_name": "Santali",
+  "pack_version": "1.0.0",
+  "schema_version": "1.1.0",
+  "build_timestamp": "2026-09-29T15:03:46Z",
+  "deterministic_epoch": "2026-01-01T00:00:00Z",
+  "archive_filename": "sat_1.0.0.slp",
+  "archive_sha256": "137d4642f766b3b64cebea04adb66be1ed10f33d7fd18f72502b3571e360d2bb",
+  "manifest_sha256": "415745ba3d4f302c24f42bb4031faec1a47629a734153a209dee20a2a10d7463",
+  "archive_size_bytes": 768809,
+  "phrases_count": 27,
+  "fln_vocab_count": 28,
+  "worksheets_count": 2,
+  "activities_count": 3,
+  "audio_assets_count": 49,
+  "validation_status": "VALIDATED",
+  "warnings_count": 0,
+  "warnings": [],
+  "errors_count": 0,
+  "errors": []
+}

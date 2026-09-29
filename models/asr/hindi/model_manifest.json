@@ -1,0 +1,42 @@
+{
+  "model_id": "sherpa-onnx-streaming-zipformer-hindi-2023-11-20",
+  "provider": "k2-fsa",
+  "model_version": "2023-11-20-int8",
+  "source_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-hindi-2023-11-20.tar.bz2",
+  "license": "Apache-2.0",
+  "language": "hi",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bit_depth": 16,
+  "streaming": true,
+  "architecture": "Zipformer-Transducer-INT8",
+  "expected_memory_bytes": 81788928,
+  "expected_latency_rtf": 0.22,
+  "files": [
+    {
+      "name": "encoder-epoch-99-avg-1.int8.onnx",
+      "sha256": "4b6c3f683416e7592cf1a9cf0c9a41ee9cf2e26e5d0d82998a46cf7e7275d27b",
+      "size_bytes": 35651584,
+      "role": "encoder"
+    },
+    {
+      "name": "decoder-epoch-99-avg-1.int8.onnx",
+      "sha256": "9b12d59a7a1c4b79b29cbdfd90a9cf18e9a263c95973b020088fb7133748be6f",
+      "size_bytes": 4194304,
+      "role": "decoder"
+    },
+    {
+      "name": "joiner-epoch-99-avg-1.int8.onnx",
+      "sha256": "1a7f0525d883b198be9cf6f4d2a13cc7f311c6d36e3b5e40e695b7ae6305a396",
+      "size_bytes": 6291456,
+      "role": "joiner"
+    },
+    {
+      "name": "tokens.txt",
+      "sha256": "8d39f4e246cf3b087050fa8959f635c9115bbf8936ad181f33f6b492fec29621",
+      "size_bytes": 143360,
+      "role": "tokens"
+    }
+  ],
+  "total_size_bytes": 46280704
+}

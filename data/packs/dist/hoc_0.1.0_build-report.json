@@ -1,0 +1,23 @@
+{
+  "pack_id": "lang-pack-hoc-v0.1",
+  "language_code": "hoc",
+  "language_name": "Ho",
+  "pack_version": "0.1.0",
+  "schema_version": "1.1.0",
+  "build_timestamp": "2026-09-29T06:23:47Z",
+  "deterministic_epoch": "2026-01-01T00:00:00Z",
+  "archive_filename": "hoc_0.1.0.slp",
+  "archive_sha256": "b45d65ac0c830b3525121322e5d287e54bd05858c62c015f4671c50e26458cb6",
+  "manifest_sha256": "b67e383b3cbbdb759747f6a768ac828f8da4d5f2cbcc39d36fcc7faa51ba63c6",
+  "archive_size_bytes": 1433,
+  "phrases_count": 1,
+  "fln_vocab_count": 0,
+  "worksheets_count": 0,
+  "activities_count": 0,
+  "audio_assets_count": 0,
+  "validation_status": "VALIDATED",
+  "warnings_count": 0,
+  "warnings": [],
+  "errors_count": 0,
+  "errors": []
+}

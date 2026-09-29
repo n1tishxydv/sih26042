@@ -1,0 +1,36 @@
+[
+  {
+    "phrase_id": "ph_unr_sit_01",
+    "hindi_canonical": "बैठ जाओ",
+    "hindi_normalized": "बैठ जाओ",
+    "hindi_aliases": [
+      "बैठो"
+    ],
+    "target_native_script": "दुबपे",
+    "target_transliteration_latin": "Dubpe",
+    "target_transliteration_devanagari": "दुबपे",
+    "audio_path": null,
+    "category": "classroom_management",
+    "fln_domain": "Classroom Discipline",
+    "pedagogical_context": "Mundari classroom seating command.",
+    "provenance": "VERIFIED",
+    "difficulty_level": 1
+  },
+  {
+    "phrase_id": "ph_unr_stand_01",
+    "hindi_canonical": "खड़े हो जाओ",
+    "hindi_normalized": "खड़े हो जाओ",
+    "hindi_aliases": [
+      "खड़े हो"
+    ],
+    "target_native_script": "तिंगुपें",
+    "target_transliteration_latin": "Tingupen",
+    "target_transliteration_devanagari": "तिंगुपें",
+    "audio_path": null,
+    "category": "classroom_management",
+    "fln_domain": "Physical Activity",
+    "pedagogical_context": "Mundari classroom stand command.",
+    "provenance": "VERIFIED",
+    "difficulty_level": 1
+  }
+]

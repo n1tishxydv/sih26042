@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LanguagePackManifest",
+  "description": "Canonical schema for SIH26042 Smart Language Pack (SLP) manifest.json",
+  "type": "object",
+  "required": [
+    "pack_id",
+    "pack_format_version",
+    "language_code",
+    "language_name",
+    "native_name",
+    "version",
+    "min_app_version",
+    "script",
+    "checksums"
+  ],
+  "properties": {
+    "pack_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$",
+      "description": "Unique identifier for the language pack"
+    },
+    "pack_format_version": {
+      "type": "string",
+      "default": "1.0.0"
+    },
+    "language_code": {
+      "type": "string",
+      "pattern": "^[a-z]{3}$",
+      "description": "ISO 639-3 three-letter language code (e.g. sat, unr, hoc)"
+    },
+    "language_name": {
+      "type": "string",
+      "description": "Standard English name of the language"
+    },
+    "native_name": {
+      "type": "string",
+      "description": "Language name in native mother tongue script"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic versioning string"
+    },
+    "min_app_version": {
+      "type": "string",
+      "default": "1.0.0"
+    },
+    "script": {
+      "type": "object",
+      "required": ["primary_script_name", "iso_15924", "unicode_range_start", "unicode_range_end"],
+      "properties": {
+        "primary_script_name": { "type": "string" },
+        "iso_15924": { "type": "string" },
+        "unicode_range_start": { "type": "string" },
+        "unicode_range_end": { "type": "string" },
+        "transliteration_scripts": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "font_file": { "type": ["string", "null"] },
+        "font_family": { "type": "string" }
+      }
+    },
+    "model_config": {
+      "type": "object",
+      "properties": {
+        "asr_model_id": { "type": "string" },
+        "asr_sample_rate": { "type": "integer" },
+        "mt_model_id": { "type": "string" },
+        "mt_format": { "type": "string" },
+        "mt_quantization": { "type": "string" },
+        "tts_model_id": { "type": "string" },
+        "tts_sample_rate": { "type": "integer" }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "phrases_count": { "type": "integer" },
+        "fln_vocab_count": { "type": "integer" },
+        "worksheets_count": { "type": "integer" },
+        "activities_count": { "type": "integer" },
+        "audio_files_count": { "type": "integer" }
+      }
+    },
+    "checksums": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Deterministic map of relative file path to SHA-256 hex string"
+    },
+    "manifest_hash": {
+      "type": ["string", "null"]
+    }
+  }
+}

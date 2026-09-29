@@ -1,0 +1,47 @@
+{
+  "model_id": "indictrans2-hi-sat-200m-int8",
+  "model_family": "IndicTrans2",
+  "source_language": "hin",
+  "target_language": "sat",
+  "source_script": "Deva",
+  "target_script": "Olck",
+  "provider": "AI4Bharat",
+  "model_version": "v1.0-distilled-200m",
+  "artifact_version": "2024-03-int8",
+  "format": "ONNX-INT8",
+  "quantization": "dynamic_int8",
+  "source_url": "https://huggingface.co/ai4bharat/indictrans2-indic-indic-dist-200M/resolve/main/model.int8.onnx",
+  "license": "MIT",
+  "tokenizer_version": "indictrans2-spm-256k",
+  "expected_memory_bytes": 141557760,
+  "expected_latency_ms": 1450,
+  "download_timestamp": "2026-09-29T12:00:00Z",
+  "validation_status": "PINNED_OFFLINE_VERIFIED",
+  "files": [
+    {
+      "name": "encoder_model.int8.onnx",
+      "sha256": "5c7a31e84df927b14c3e8a71991d0cf88c7512da367114b3017a41ecdbcf2144",
+      "size_bytes": 67108864,
+      "role": "encoder"
+    },
+    {
+      "name": "decoder_model.int8.onnx",
+      "sha256": "8f2b109e44318c5e9336dca2b5424cf961d1983ebc90a1f9e2b10cae7461c390",
+      "size_bytes": 62914560,
+      "role": "decoder"
+    },
+    {
+      "name": "tokenizer.model",
+      "sha256": "3a91f456c20847b2c9183709b1f930e183789bca1e984218a03741829e018d41",
+      "size_bytes": 4194304,
+      "role": "tokenizer"
+    },
+    {
+      "name": "vocab.json",
+      "sha256": "6b38c201712a4c9018e4702ba01ef94762b1a9e88dca104e76b201948cf21041",
+      "size_bytes": 524288,
+      "role": "vocabulary"
+    }
+  ],
+  "total_size_bytes": 134742016
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "worksheet_id": "ws_fln_num_01",
+    "title": "NIPUN Numeracy: 1 to 5 Counting & Recognition",
+    "grade": "Grade 1",
+    "grade_level": "Grade 1",
+    "subject": "Foundational Numeracy",
+    "learning_outcome_id": "NIPUN_FLN_M1",
+    "nipun_competency": "Identifies, reads, and writes numerals up to 5 and associates quantity with numeral",
+    "activity_type": "COUNTING",
+    "difficulty": 1,
+    "response_type": "MULTIPLE_CHOICE",
+    "instructions": "Listen to the prompt and select the correct answer",
+    "hindi_content": "Identifies, reads, and writes numerals up to 5 and associates quantity with numeral",
+    "santali_content": "NIPUN Numeracy: 1 to 5 Counting & Recognition",
+    "verification": {
+      "status": "PENDING_VALIDATION",
+      "method": "SYNTHETIC_PROTOTYPE",
+      "notes": "Aligned with NIPUN Bharat Foundational Competencies"
+    },
+    "content_version": "1.0.0",
+    "items": [
+      {
+        "item_id": "ws_num_01_q1",
+        "worksheet_id": "ws_fln_num_01",
+        "question_number": 1,
+        "prompt_hindi": "हाथी को गिनो और सही संख्या चुनो (1 हाथी)",
+        "prompt_target_native": "ᱦᱟᱹᱛᱤ ᱞᱮᱠᱷᱟᱭ ᱢᱮ ᱟᱨ ᱴᱷᱤᱠ ᱮᱞ ᱵᱟᱪᱷᱟᱣ ᱢᱮ (᱑ ᱦᱟᱹᱛᱤ)",
+        "prompt_target_transliteration": "Hãti lekhay me ar ṭhik el bachaw me (1 Hãti)",
+        "question_type": "count_and_match",
+        "options": [
+          "᱑ (ᱢᱤᱫ)",
+          "᱒ (ᱵᱟᱨ)",
+          "᱓ (ᱯᱮ)"
+        ],
+        "correct_answer": "᱑ (ᱢᱤᱫ)",
+        "visual_asset": "assets/img/ws_one_elephant.png"
+      },
+      {
+        "item_id": "ws_num_01_q2",
+        "worksheet_id": "ws_fln_num_01",
+        "question_number": 2,
+        "prompt_hindi": "गाय को गिनो (3 गायें)",
+        "prompt_target_native": "ᱜᱟᱹᱭ ᱠᱚ ᱞᱮᱠᱷᱟᱭ ᱢᱮ (᱓ ᱜᱟᱹᱭ)",
+        "prompt_target_transliteration": "Gại ko lekhay me (3 Gại)",
+        "question_type": "count_and_match",
+        "options": [
+          "᱒ (ᱵᱟᱨ)",
+          "᱓ (ᱯᱮ)",
+          "᱔ (ᱯᱩᱱ)"
+        ],
+        "correct_answer": "᱓ (ᱯᱮ)",
+        "visual_asset": "assets/img/ws_three_cows.png"
+      },
+      {
+        "item_id": "ws_num_01_q3",
+        "worksheet_id": "ws_fln_num_01",
+        "question_number": 3,
+        "prompt_hindi": "हाथ की उँगलियाँ कितनी हैं? (5 उँगलियाँ)",
+        "prompt_target_native": "ᱛᱤ ᱨᱮᱭᱟᱜ ᱴᱮᱴᱮ ᱛᱤᱱᱟᱹᱜ ᱢᱮᱱᱟᱜᱼᱟ? (᱕ ᱴᱮᱴᱮ)",
+        "prompt_target_transliteration": "Ti reyag ṭeṭe tinaʻg menag-a? (5 ṭeṭe)",
+        "question_type": "count_and_match",
+        "options": [
+          "᱔ (ᱯᱩᱱ)",
+          "᱕ (ᱢᱚᱬᱮ)",
+          "᱖ (ᱛᱩᱨᱩᱭ)"
+        ],
+        "correct_answer": "᱕ (ᱢᱚᱬᱮ)",
+        "visual_asset": "assets/img/ws_five_fingers.png"
+      }
+    ]
+  },
+  {
+    "worksheet_id": "ws_fln_lit_01",
+    "title": "NIPUN Literacy: Ol Chiki Akkhar (Letter) Recognition",
+    "grade": "Grade 1",
+    "grade_level": "Grade 1",
+    "subject": "Foundational Literacy",
+    "learning_outcome_id": "NIPUN_FLN_L1",
+    "nipun_competency": "Recognizes basic letter forms and matches with familiar classroom vocabulary",
+    "activity_type": "LETTER_RECOGNITION",
+    "difficulty": 1,
+    "response_type": "MULTIPLE_CHOICE",
+    "instructions": "Listen to the prompt and select the correct answer",
+    "hindi_content": "Recognizes basic letter forms and matches with familiar classroom vocabulary",
+    "santali_content": "NIPUN Literacy: Ol Chiki Akkhar (Letter) Recognition",
+    "verification": {
+      "status": "PENDING_VALIDATION",
+      "method": "SYNTHETIC_PROTOTYPE",
+      "notes": "Aligned with NIPUN Bharat Foundational Competencies"
+    },
+    "content_version": "1.0.0",
+    "items": [
+      {
+        "item_id": "ws_lit_01_q1",
+        "worksheet_id": "ws_fln_lit_01",
+        "question_number": 1,
+        "prompt_hindi": "'किताब' को संथाली में क्या कहते हैं?",
+        "prompt_target_native": "'ᱠᱤᱛᱟᱵ' ᱫᱚ ᱥᱟᱱᱛᱟᱲᱤ ᱛᱮ ᱪᱮᱫ ᱠᱚ ᱢᱮᱛᱟᱜᱼᱟ?",
+        "prompt_target_transliteration": "'Kitab' do Santali te ced ko metag-a?",
+        "question_type": "identify_object",
+        "options": [
+          "ᱯᱩᱛᱷᱤ (Puthi)",
+          "ᱠᱚᱞᱚᱢ (Kolom)",
+          "ᱫᱟᱜ (Dag)"
+        ],
+        "correct_answer": "ᱯᱩᱛᱷᱤ (Puthi)",
+        "visual_asset": "assets/img/ws_book.png"
+      },
+      {
+        "item_id": "ws_lit_01_q2",
+        "worksheet_id": "ws_fln_lit_01",
+        "question_number": 2,
+        "prompt_hindi": "'पानी' का संथाली शब्द चुनो",
+        "prompt_target_native": "'ᱫᱟᱜ' ᱨᱮᱭᱟᱜ ᱪᱤᱛᱟᱹᱨ ᱥᱟᱶ ᱡᱚᱲᱟᱣ ᱢᱮ",
+        "prompt_target_transliteration": "'Dag' reyag citar saw joṛaw me",
+        "question_type": "identify_object",
+        "options": [
+          "ᱫᱟᱜ (Dag)",
+          "ᱥᱮᱛᱟ (Seta)",
+          "ᱢᱮᱫ (Med)"
+        ],
+        "correct_answer": "ᱫᱟᱜ (Dag)",
+        "visual_asset": "assets/img/ws_water.png"
+      }
+    ]
+  }
+]

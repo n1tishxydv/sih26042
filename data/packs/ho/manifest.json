@@ -1,0 +1,51 @@
+{
+  "pack_id": "lang-pack-hoc-v0.1",
+  "pack_format_version": "1.0.0",
+  "schema_version": "1.1.0",
+  "language_code": "hoc",
+  "language_name": "Ho",
+  "native_name": "ᱦᱳ / 𑢹𑣉",
+  "version": "0.1.0",
+  "min_app_version": "1.0.0",
+  "max_app_version": null,
+  "description": "Early architectural stub for Ho language pack expansion (v0.1.0)",
+  "locale": "sat_IN",
+  "created_at": "2026-09-29T06:23:47Z",
+  "updated_at": "2026-09-29T06:23:47Z",
+  "pack_size_bytes": 0,
+  "checksum": "",
+  "validation_status": "EXPERIMENTAL",
+  "script": {
+    "primary_script_name": "Warang Citi / Latin",
+    "iso_15924": "Wara",
+    "unicode_range_start": "0x118A0",
+    "unicode_range_end": "0x118FF",
+    "transliteration_scripts": [
+      "Latin",
+      "Devanagari"
+    ],
+    "font_file": null,
+    "font_family": "sans-serif"
+  },
+  "language_metadata": null,
+  "model_config": {
+    "asr_model_id": "hindi_conformer_int8",
+    "asr_sample_rate": 16000,
+    "mt_model_id": "hi_hoc_quant_int8",
+    "mt_format": "tflite",
+    "mt_quantization": "int8",
+    "tts_model_id": "hoc_fastpitch_int8",
+    "tts_sample_rate": 22050
+  },
+  "stats": {
+    "phrases_count": 1,
+    "fln_vocab_count": 0,
+    "worksheets_count": 0,
+    "activities_count": 0,
+    "audio_files_count": 0
+  },
+  "checksums": {
+    "phrases.json": "d3a0e064594c133b2e68362b4093509724d12704fd32ea5194f8ac0d7cf97cc8"
+  },
+  "manifest_hash": null
+}

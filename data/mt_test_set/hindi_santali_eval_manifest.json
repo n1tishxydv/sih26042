@@ -1,0 +1,295 @@
+{
+  "dataset_name": "SIH26042 Held-Out Hindi-Santali MT Evaluation Set",
+  "version": "1.0.0",
+  "source_language": "hi",
+  "target_language": "sat",
+  "target_script": "Olck",
+  "description": "Held-out evaluation dataset of classroom instructions, off-script dialogues, and pedagogy prompts for evaluating offline Hindi->Santali neural translation.",
+  "splits": {
+    "validation_count": 8,
+    "test_count": 12,
+    "total_count": 20
+  },
+  "samples": [
+    {
+      "sample_id": "mt_eval_001",
+      "split": "validation",
+      "category": "classroom_instruction",
+      "source_hindi": "बच्चों, अपनी किताब खोलो",
+      "reference_santali": "ᱜᱤᱫᱽᱨᱟᱹ ᱟᱯᱱᱟᱨᱟᱜ ᱯᱩᱛᱷᱤ ᱡᱷᱤᱡ ᱢᱮ",
+      "reference_latin": "Gidra apnarag puthi jhij me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Natural pedagogical imperative in Ol Chiki."
+      }
+    },
+    {
+      "sample_id": "mt_eval_002",
+      "split": "validation",
+      "category": "picture_activities",
+      "source_hindi": "चित्र को ध्यान से देखो",
+      "reference_santali": "ᱪᱤᱛᱟᱹᱨ ᱫᱷᱮᱭᱟᱱ ᱛᱮ ᱧᱮᱞ ᱢᱮ",
+      "reference_latin": "Chitar dheyan te nyel me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Accurate for foundational visual recognition."
+      }
+    },
+    {
+      "sample_id": "mt_eval_003",
+      "split": "validation",
+      "category": "numbers",
+      "source_hindi": "मेरे साथ एक से पाँच तक गिनो",
+      "reference_santali": "ᱤᱧ ᱥᱟᱶᱛᱮ ᱢᱤᱫ ᱠᱷᱚᱱ ᱢᱚᱬᱮ ᱫᱷᱟᱹᱵᱤᱡ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+      "reference_latin": "Inj sawte mid khon mone dhabij lekhay me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "FLN counting prompt structure verified."
+      }
+    },
+    {
+      "sample_id": "mt_eval_004",
+      "split": "validation",
+      "category": "classroom_questions",
+      "source_hindi": "कौन उत्तर देगा?",
+      "reference_santali": "ᱚᱠᱚᱭ ᱛᱮᱞᱟᱭ ᱮᱢᱟ?",
+      "reference_latin": "Okoy telay ema?",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Colloquial question pattern."
+      }
+    },
+    {
+      "sample_id": "mt_eval_005",
+      "split": "validation",
+      "category": "praise",
+      "source_hindi": "बहुत अच्छा, तुमने बहुत अच्छा किया",
+      "reference_santali": "ᱟᱹᱰᱤ ᱵᱮᱥ, ᱟᱢ ᱟᱹᱰᱤ ᱵᱮᱥᱮᱢ ᱠᱟᱹᱢᱤ ᱠᱮᱫᱟ",
+      "reference_latin": "Adi bes, am adi besem kami keda",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Standard positive reinforcement."
+      }
+    },
+    {
+      "sample_id": "mt_eval_006",
+      "split": "validation",
+      "category": "numbers",
+      "source_hindi": "अब दो गेंदें गिनो",
+      "reference_santali": "ᱱᱤᱛᱚᱜ ᱵᱟᱨᱭᱟ ᱵᱚᱞ ᱞᱮᱠᱷᱟᱭ ᱢᱮ",
+      "reference_latin": "Nitog barya bol lekhay me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Minor correction",
+        "notes": "Postposition 'ya' marks dual/plural countable items."
+      }
+    },
+    {
+      "sample_id": "mt_eval_007",
+      "split": "validation",
+      "category": "classroom_instruction",
+      "source_hindi": "अपना हाथ उठाओ",
+      "reference_santali": "ᱟᱢᱟᱜ ᱛᱤ ᱛᱩᱞ ᱢᱮ",
+      "reference_latin": "Amag ti tul me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Clear classroom command."
+      }
+    },
+    {
+      "sample_id": "mt_eval_008",
+      "split": "validation",
+      "category": "classroom_instruction",
+      "source_hindi": "मेरे बाद बोलो",
+      "reference_santali": "ᱤᱧ ᱛᱟᱭᱚᱢ ᱨᱚᱲ ᱢᱮ",
+      "reference_latin": "Inj tayom ror me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Choral repetition prompt."
+      }
+    },
+    {
+      "sample_id": "mt_eval_009",
+      "split": "test",
+      "category": "assessment",
+      "source_hindi": "अपनी पेंसिल मुझे दिखाओ",
+      "reference_santali": "ᱟᱢᱟᱜ ᱯᱮᱱᱥᱤᱞ ᱤᱧ ᱩᱫᱩᱜᱟᱹᱧ ᱢᱮ",
+      "reference_latin": "Amag pensil inj udugany me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Pencil item check."
+      }
+    },
+    {
+      "sample_id": "mt_eval_010",
+      "split": "test",
+      "category": "short_conversational",
+      "source_hindi": "आज कौन अनुपस्थित है?",
+      "reference_santali": "ᱛᱮᱦᱮᱧ ᱚᱠᱚᱭ ᱵᱟᱹᱱᱩᱜᱼᱮᱭᱟ?",
+      "reference_latin": "Tehenj okoy banug-eya?",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Attendance check."
+      }
+    },
+    {
+      "sample_id": "mt_eval_011",
+      "split": "test",
+      "category": "classroom_instruction",
+      "source_hindi": "श्यामपट्ट पर देखो",
+      "reference_santali": "ᱵᱞᱮᱠᱵᱳᱨᱰ ᱨᱮ ᱧᱮᱞ ᱢᱮ",
+      "reference_latin": "Blekbord re nyel me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Minor correction",
+        "notes": "Blackboard loanword in Ol Chiki is acceptable in primary schools."
+      }
+    },
+    {
+      "sample_id": "mt_eval_012",
+      "split": "test",
+      "category": "praise",
+      "source_hindi": "सब बच्चे ताली बजाओ",
+      "reference_santali": "ᱡᱚᱛᱚ ᱜᱤᱫᱽᱨᱟᱹ ᱛᱷᱟᱹᱭ ᱛᱷᱟᱹᱭ ᱛᱟᱞᱤ ᱢᱮ",
+      "reference_latin": "Joto gidra thay thay tali me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Clapping rhyme."
+      }
+    },
+    {
+      "sample_id": "mt_eval_013",
+      "split": "test",
+      "category": "assessment",
+      "source_hindi": "क्या तुमने काम पूरा कर लिया?",
+      "reference_santali": "ᱪᱮᱫ ᱟᱢ ᱠᱟᱹᱢᱤ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟᱢ?",
+      "reference_latin": "Ched am kami puraw kedam?",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Work completion query."
+      }
+    },
+    {
+      "sample_id": "mt_eval_014",
+      "split": "test",
+      "category": "numbers",
+      "source_hindi": "तीन और दो कितने होते हैं?",
+      "reference_santali": "ᱯᱮ ᱟᱨ ᱵᱟᱨ ᱛᱤᱱᱟᱹᱜ ᱦᱩᱭᱩᱜᱼᱟ?",
+      "reference_latin": "Pe ar bar tinag huyug-a?",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Basic addition question."
+      }
+    },
+    {
+      "sample_id": "mt_eval_015",
+      "split": "test",
+      "category": "classroom_instruction",
+      "source_hindi": "कक्षा में शोर मत करो",
+      "reference_santali": "ᱠᱞᱟᱥ ᱨᱮ ᱦᱩᱞᱟᱹᱪᱟᱢᱟ ᱟᱞᱚᱯᱮ ᱠᱟᱹᱢᱤᱭᱟ",
+      "reference_latin": "Klas re hulachama alope kamiya",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Quiet management."
+      }
+    },
+    {
+      "sample_id": "mt_eval_016",
+      "split": "test",
+      "category": "picture_activities",
+      "source_hindi": "इस जानवर का नाम क्या है?",
+      "reference_santali": "ᱱᱚᱣᱟ ᱡᱤᱭᱟᱹᱞᱤ ᱨᱮᱱᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+      "reference_latin": "Nowa jiyali renag nyutum ched?",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Correct",
+        "notes": "Animal naming task."
+      }
+    },
+    {
+      "sample_id": "mt_eval_017",
+      "split": "test",
+      "category": "short_conversational",
+      "source_hindi": "कल सब समय पर आना",
+      "reference_santali": "ᱜᱟᱯᱟ ᱡᱚᱛᱚ ᱦᱚᱲ ᱚᱠᱛᱚ ᱨᱮ ᱦᱤᱡᱩᱜ ᱯᱮ",
+      "reference_latin": "Gapa joto hor okto re hijug pe",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_03",
+        "score": "Correct",
+        "notes": "Punctuality instruction."
+      }
+    },
+    {
+      "sample_id": "mt_eval_018",
+      "split": "test",
+      "category": "off_script_classroom",
+      "source_hindi": "अपने बैग में पानी की बोतल रखो",
+      "reference_santali": "ᱟᱢᱟᱜ ᱵᱮᱜᱽ ᱨᱮ ᱫᱟᱜ ᱵᱚᱛᱚᱞ ᱫᱚᱦᱚᱭ ᱢᱮ",
+      "reference_latin": "Amag beg re dag botol dohoy me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Routine off-script sentence."
+      }
+    },
+    {
+      "sample_id": "mt_eval_019",
+      "split": "test",
+      "category": "off_script_classroom",
+      "source_hindi": "दरवाजा बंद करो क्योंकि बाहर हवा चल रही है",
+      "reference_santali": "ᱫᱩᱣᱟᱹᱨ ᱵᱚᱸᱫᱽ ᱢᱮ ᱪᱮᱫᱟᱜ ᱥᱮ ᱵᱟᱦᱨᱮ ᱦᱚᱭ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ",
+      "reference_latin": "Duwar bond me chedage se bahre hoy chalag kana",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_02",
+        "score": "Minor correction",
+        "notes": "Compound reason clause."
+      }
+    },
+    {
+      "sample_id": "mt_eval_020",
+      "split": "test",
+      "category": "off_script_classroom",
+      "source_hindi": "कागज नीचे मत फेंको, कूड़ेदान में डालो",
+      "reference_santali": "ᱠᱟᱜᱚᱡᱽ ᱞᱟᱛᱟᱨ ᱟᱞᱚᱢ ᱜᱤᱰᱤᱭᱟ, ᱰᱟᱥᱴᱵᱤᱱ ᱨᱮ ᱜᱤᱰᱤ ᱢᱮ",
+      "reference_latin": "Kagoj latar alom gidiya, dastbin re gidi me",
+      "in_phrase_bank": false,
+      "human_review": {
+        "reviewer_id": "rev_sat_01",
+        "score": "Correct",
+        "notes": "Cleanliness rule."
+      }
+    }
+  ]
+}

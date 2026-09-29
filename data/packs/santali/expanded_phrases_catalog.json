@@ -1,0 +1,36 @@
+{
+  "catalog_version": "2.0.0",
+  "language_code": "sat",
+  "language_name": "Santali",
+  "script": "Ol Chiki",
+  "target_capacity": 200,
+  "curated_phrases_count": 200,
+  "verified_count": 1,
+  "pending_validation_count": 199,
+  "pedagogical_categories": [
+    "CLASSROOM_MANAGEMENT",
+    "TEACHING_INSTRUCTION",
+    "QUESTIONS",
+    "PRAISE_AND_ENCOURAGEMENT",
+    "PICTURE_ACTIVITIES",
+    "NUMBER_ACTIVITIES",
+    "ASSESSMENT",
+    "GREETING_AND_TRANSITION"
+  ],
+  "expansion_policy": {
+    "zero_fake_verification": true,
+    "default_provenance": "PENDING_VALIDATION",
+    "default_audio_status": "PENDING_RECORDING",
+    "requires_field_signoff": true
+  },
+  "category_breakdown": {
+    "CLASSROOM_MANAGEMENT": 25,
+    "TEACHING_INSTRUCTION": 35,
+    "QUESTIONS": 30,
+    "PRAISE_AND_ENCOURAGEMENT": 20,
+    "PICTURE_ACTIVITIES": 25,
+    "NUMBER_ACTIVITIES": 30,
+    "ASSESSMENT": 20,
+    "GREETING_AND_TRANSITION": 15
+  }
+}

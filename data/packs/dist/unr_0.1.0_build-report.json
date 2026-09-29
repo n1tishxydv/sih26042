@@ -1,0 +1,23 @@
+{
+  "pack_id": "lang-pack-unr-v0.1",
+  "language_code": "unr",
+  "language_name": "Mundari",
+  "pack_version": "0.1.0",
+  "schema_version": "1.1.0",
+  "build_timestamp": "2026-09-29T06:23:47Z",
+  "deterministic_epoch": "2026-01-01T00:00:00Z",
+  "archive_filename": "unr_0.1.0.slp",
+  "archive_sha256": "ff751a9b6a88dc1dd24cc13de036b44cf667698ca925fa0c7f14d916caff2392",
+  "manifest_sha256": "7cfbec68266c18e42019d147ed376de77c8637f77dc9d57a550f582d95604d70",
+  "archive_size_bytes": 1512,
+  "phrases_count": 2,
+  "fln_vocab_count": 0,
+  "worksheets_count": 0,
+  "activities_count": 0,
+  "audio_assets_count": 0,
+  "validation_status": "VALIDATED",
+  "warnings_count": 0,
+  "warnings": [],
+  "errors_count": 0,
+  "errors": []
+}

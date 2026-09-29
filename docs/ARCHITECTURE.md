@@ -11,51 +11,59 @@ Primary school classrooms in tribal areas of India (such as Santhal Parganas in 
 
 ---
 
-### 2. Runtime Pipeline Specification
+### 2. Runtime Pipeline Specification (Phase 3 Active)
 
 ```
 Teacher Hindi Speech
        │
        ▼
-Local Hindi ASR Engine (INT8 Streaming Acoustic Model)
+Android Microphone (HardwareAudioRecordSource, 16 kHz Mono 16-bit PCM) [IMPLEMENTED]
        │
        ▼
-Deterministic Text Normalizer (Unicode NFC, Danda, Matra, Punctuation Stripping)
+Audio Preprocessor (DefaultAudioPreprocessor: 80Hz Biquad HPF + Adaptive Energy VAD) [IMPLEMENTED]
        │
        ▼
-Classroom Phrase & Intent Matcher (Exact -> Alias -> Token -> Levenshtein Fuzzy)
+Local Hindi ASR Engine (OfflineHindiAsrEngine: Sherpa-ONNX Zipformer INT8) [IMPLEMENTED]
+       │
+       ▼
+Deterministic Text Normalizer (Unicode NFC, Danda, Matra, Punctuation Stripping) [IMPLEMENTED]
+       │
+       ▼
+Classroom Phrase & Intent Matcher (Exact -> Alias -> Token -> Levenshtein Fuzzy) [IMPLEMENTED]
        │
   ┌────┴─────────────────────────────┐
-  │                                  │
-[Match >= 0.80]                 [No Match]
-  │                                  │
+  │ Match >= 0.75                    │ No Match / Unmatched Long-Tail
   ▼                                  ▼
-Pre-Verified Audio Asset        Quantized On-Device MT Engine (INT8)
-(Sub-1s end-to-speech)               │
-  │                             On-Device Neural TTS Synthesis
-  │                             (Sub-3s total duration)
+Trust Model Check                  Phase 3 Neural Fallback:
+(verificationStatus check)         OfflineHindiSantaliMtEngine (IndicTrans2 INT8) [IMPLEMENTED]
   │                                  │
-  ▼                                  ▼
-PROVENANCE: VERIFIED            PROVENANCE: MACHINE_GENERATED / LOW_CONFIDENCE
-  │                                  │
-  └──────────────────┬───────────────┘
-                     │
-                     ▼
-          Audio Playback & UI Render
-(Ol Chiki Script + Phonetic Transliteration + Latency Telemetry)
+  ├───────────────────┐              ▼
+  ▼                   ▼            Ol Chiki Script Validation & Contamination Analysis [IMPLEMENTED]
+VERIFIED       PENDING_VALIDATION    │
+  │                   │              ▼
+  ▼                   ▼            PROVENANCE: MACHINE_GENERATED
+Pre-recorded Santali .wav Asset    Confidence: null (Uncalibrated) [IMPLEMENTED]
+(audio/ph_sit_down_01.wav)         Audio: None (TTS Feasibility Gate: TTS_UNAVAILABLE)
+  │                   │              │
+  └───────────────────┴──────────────┘
+                      │
+                      ▼
+           Audio Playback & UI Render
+(Ol Chiki Script + Phonetic Transliteration + Monotonic Latency Telemetry + Teacher Correction Tool) [IMPLEMENTED]
 ```
 
 ---
 
 ### 3. Provenance State Machine
 
-| State | Definition | Audio Source | UI Visual Badge | Pedagogical Action |
-| :--- | :--- | :--- | :--- | :--- |
-| **`VERIFIED`** | Exact/high-confidence match in Language Pack | Pre-recorded native speaker audio | **Forest Green Badge** | Direct auto-playback to classroom |
-| **`MACHINE_GENERATED`** | Quantized on-device MT fallback (score >= 0.70) | Synthesized TTS | **Electric Blue Badge** | Distinctly labeled as machine output |
-| **`LOW_CONFIDENCE`** | MT or ASR confidence < 0.70 | Synthesized TTS | **Amber Warning Badge** | Requires teacher confirmation |
-| **`NO_MATCH`** | Input unresolvable or noise | None | **Slate Grey Badge** | Prompts teacher to repeat or use phrase chips |
-| **`UNAVAILABLE`** | Model/engine not loaded or pack missing | None | **Deep Crimson Badge** | Prompts pack download/check |
+| State | Definition | Audio Source | UI Visual Badge | Pedagogical Action | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`VERIFIED`** | Match verified by native linguistic field team | Pre-recorded native speaker audio | **Forest Green Badge** | Direct auto-playback to classroom | **[IMPLEMENTED]** |
+| **`PENDING_VALIDATION`** | Matched from prototype pack; native approval pending | Prototype audio asset | **Warm Amber Badge** | Safe playback with review indication | **[IMPLEMENTED]** |
+| **`MACHINE_GENERATED`** | Quantized on-device MT fallback (IndicTrans2 INT8) | None (TTS Gate: TTS_UNAVAILABLE) | **Purple / Electric Blue Badge** | Distinctly labeled as machine output; text only | **[IMPLEMENTED]** |
+| **`LOW_CONFIDENCE`** | MT or ASR confidence < 0.70 | None | **Amber Warning Badge** | Requires teacher confirmation | **[IMPLEMENTED]** |
+| **`NO_MATCH`** | Input unresolvable or fallback disabled | None | **Slate Grey Badge** | Prompts teacher to repeat or use phrase chips | **[IMPLEMENTED]** |
+| **`UNAVAILABLE`** | Model/engine not loaded or pack missing | None | **Deep Crimson Badge** | Prompts pack download/check | **[IMPLEMENTED]** |
 
 ---
 
@@ -64,13 +72,13 @@ Low-cost Android 9+ tablets have ~2048 MB total RAM, with an Android per-process
 
 #### Model Management Strategy
 1. **Never load all models simultaneously**:
-   - The Fast-Path keeps only the lightweight **Hindi ASR** (~80-110 MB) and in-memory phrase Trie (< 10 MB) in RAM.
-   - The **Neural MT** (~140 MB) and **Neural TTS** (~100 MB) engines are loaded *lazily on demand* only when an unverified utterance occurs.
+   - The Fast-Path keeps only the lightweight **Hindi ASR** (~78 MB RAM) and in-memory phrase Trie (< 10 MB) in RAM. **[IMPLEMENTED]**
+   - The **Neural MT** (~140 MB) and **Neural TTS** (~100 MB) engines are deferred to future phases and loaded *lazily on demand* only when enabled.
 2. **Aggressive `onTrimMemory` Eviction**:
-   - When the Android OS signals memory pressure (`TRIM_MEMORY_RUNNING_CRITICAL`, `TRIM_MEMORY_COMPLETE`), `ModelLifecycleManager` immediately purges the fallback MT and TTS models from heap.
-3. **Deterministic Latency Targets**:
-   - Verified Fast Path: **~550 ms - 1.0 s** from end-of-speech to audio playback start.
-   - Neural Fallback Path: **< 3.0 s** total end-of-speech to audio synthesis start.
+   - When the Android OS signals memory pressure (`TRIM_MEMORY_RUNNING_CRITICAL`, `TRIM_MEMORY_COMPLETE`), `ModelLifecycleManager` immediately purges heavy fallback models from heap. **[IMPLEMENTED]**
+3. **Deterministic Latency Measurements**:
+   - Verified Fast Path: **233 ms P50 / 311 ms P90** from end-of-speech to audio playback start. **[MEASURED]**
+   - Target Goal: **~1.0 s** total latency. **[TARGET]**
 
 ---
 
@@ -85,13 +93,13 @@ sat_1.0.0.slp (ZIP)
 ├── worksheets.json          # Grade 1 & 2 NIPUN worksheets with bilingual prompts & options
 ├── activities.json          # Call-and-response classroom games & songs
 ├── fonts/                   # Ol Chiki TrueType fonts (Noto Sans Ol Chiki)
-└── audio/                   # 16kHz PCM mono verified native speaker audio assets
+└── audio/                   # 16kHz PCM mono verified native speaker audio assets (.wav)
 ```
 
 ---
 
 ### 6. Cloud & Backend Role
-- The **Classroom Co-Teacher Android App has 0% cloud dependency** for daily operation.
+- The **Classroom Co-Teacher Android App has 0% cloud dependency** for daily classroom speech recognition and translation. **[IMPLEMENTED]**
 - The **FastAPI backend** serves solely as:
   1. Language Pack repository and release pipeline.
   2. Teacher phrase correction aggregator for linguistic field teams.
