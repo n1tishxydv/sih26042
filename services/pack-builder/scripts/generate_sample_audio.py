@@ -31,8 +31,8 @@ def create_sample_wav(file_path: Path, duration_sec: float = 0.5, sample_rate: i
         f.write(struct.pack("<I", 16))      # Subchunk1Size (16 for PCM)
         f.write(struct.pack("<H", 1))       # AudioFormat (1 for PCM)
         f.write(struct.pack("<H", 1))       # NumChannels (1 mono)
-        f.write(struct.pack("<I", sample_rate)) # SampleRate
-        f.write(struct.pack("<I", sample_rate * 2)) # ByteRate (SampleRate * NumChannels * BitsPerSample/8)
+        f.write(struct.pack("<I", sample_rate))  # SampleRate
+        f.write(struct.pack("<I", sample_rate * 2))  # ByteRate (SampleRate * NumChannels * BitsPerSample/8)
         f.write(struct.pack("<H", 2))       # BlockAlign (NumChannels * BitsPerSample/8)
         f.write(struct.pack("<H", 16))      # BitsPerSample (16 bits)
         # data subchunk

@@ -1,7 +1,6 @@
 """Tests for Ol Chiki script, audio validation, and integrity rules."""
 
 from pathlib import Path
-import pytest
 from pack_builder.validator import ScriptValidator, AudioValidator, PackValidator
 
 

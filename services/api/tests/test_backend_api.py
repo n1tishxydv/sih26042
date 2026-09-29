@@ -143,4 +143,3 @@ def test_mt_evaluation_record_endpoints(client):
     data = list_resp.json()
     assert data["count"] >= 1
     assert any(r["eval_run_id"] == "eval_run_2026_09_29_01" for r in data["runs"])
-

@@ -159,7 +159,6 @@ class ModelEngineConfig(BaseModel):
 ModelConfig = ModelEngineConfig
 
 
-
 class RuntimeModelSuite(BaseModel):
     """Model suite configuration for offline pipeline execution."""
     asr: Optional[ModelEngineConfig] = None
@@ -215,21 +214,21 @@ class Phrase(BaseModel):
     grade: str = Field(default="Grade 1", description="Target grade: Balvatika, Grade 1, Grade 2")
     subject: str = Field(default="Classroom Routine", description="Subject or pedagogical domain")
     intent: str = Field(..., description="Machine-readable intent enum e.g. CLASSROOM_ACTION_SIT")
-    
+
     # Text fields with backwards-compatible aliases
     hindi_canonical: str = Field(..., description="Standard classroom Hindi prompt, e.g. बैठ जाओ")
     hindi_normalized: str = Field(default="", description="Normalized form for fast lookup")
     hindi_aliases: List[str] = Field(default_factory=list, description="Alternative teacher utterances")
-    
+
     target_native_script: str = Field(..., description="Translation in Ol Chiki script")
     target_transliteration_latin: str = Field(..., description="Phonetic Latin transliteration")
     target_transliteration_devanagari: Optional[str] = Field(None, description="Phonetic Devanagari transliteration")
-    
+
     # Audio fields
     audio_path: Optional[str] = Field(None, description="Relative path to audio file (e.g. audio/ph_sit_down_01.wav)")
     audio_format: str = Field(default="wav", description="Audio format (wav, ogg)")
     audio_duration_ms: int = Field(default=500, description="Audio duration in milliseconds")
-    
+
     # Verification & provenance
     verification: VerificationRecord = Field(default_factory=VerificationRecord)
     source_reference: Optional[str] = Field("NCERT / NIPUN Bharat Primary Pedagogy", description="Source reference")
@@ -266,7 +265,7 @@ class Phrase(BaseModel):
                     data["category"] = PhraseCategory.PRAISE
                 else:
                     data["category"] = PhraseCategory.CLASSROOM_MANAGEMENT
-            
+
             # Map legacy verification/provenance
             if "verification" not in data:
                 prov = data.get("provenance", "PENDING_VALIDATION")
@@ -280,7 +279,7 @@ class Phrase(BaseModel):
                     "method": VerificationMethod.SYNTHETIC_PROTOTYPE,
                     "notes": data.get("pedagogical_context")
                 }
-            
+
             # Ensure intent is populated
             if "intent" not in data or not data["intent"]:
                 data["intent"] = data.get("phrase_id", "CLASSROOM_INTENT").upper()
@@ -323,7 +322,7 @@ class FlnVocabularyItem(BaseModel):
                 data["transliteration"] = data["target_transliteration"]
             if "audio_path" in data and "audio_asset" not in data:
                 data["audio_asset"] = data["audio_path"]
-            
+
             # Map category
             cat = data.get("category", "NUMBERS")
             if isinstance(cat, str):

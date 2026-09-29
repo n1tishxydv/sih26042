@@ -1,6 +1,5 @@
 """Tests for Hindi text normalizer matching docs/NORMALIZATION_SPEC.md."""
 
-import pytest
 from pack_builder.normalizer import HindiNormalizer
 
 

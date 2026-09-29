@@ -8,7 +8,7 @@ from .core.config import settings
 from .core.database import Base, engine, SessionLocal
 from .core.logging import setup_logging
 from .core.middleware import RequestIdMiddleware
-from . import models  # Ensures all models are registered in Base.metadata
+from . import models  # noqa: F401 - Ensures all models are registered in Base.metadata
 from .api.api_v1 import api_router
 from .services.pack_service import PackService
 

@@ -16,5 +16,8 @@ def health_check(request: Request):
         "request_id": request_id,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "offline_first": True,
-        "philosophy": "Classroom operations require 0% cloud connectivity. Backend functions solely as offline pack control plane & telemetry receiver.",
+        "philosophy": (
+            "Classroom operations require 0% cloud connectivity. "
+            "Backend functions solely as offline pack control plane & telemetry receiver."
+        ),
     }

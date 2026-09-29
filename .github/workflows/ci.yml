@@ -34,7 +34,7 @@ jobs:
         env:
           PYTHONPATH: packages/contracts/python:packages:.
         run: |
-          python -m pytest packages/language_pack_schema/test_pack_schema.py
+          python -m pytest packages/language-pack-schema packages/language_pack_schema
 
       - name: Run Pack Builder Tests
         env:

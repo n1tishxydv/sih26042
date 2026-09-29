@@ -10,7 +10,7 @@ class PackRepository:
         self.db = db
 
     def get_all_active_packs(self) -> List[LanguagePack]:
-        return self.db.query(LanguagePack).filter(LanguagePack.is_active == True).all()
+        return self.db.query(LanguagePack).filter(LanguagePack.is_active.is_(True)).all()
 
     def get_pack_by_id(self, pack_id: str) -> Optional[LanguagePack]:
         return self.db.query(LanguagePack).filter(LanguagePack.pack_id == pack_id).first()

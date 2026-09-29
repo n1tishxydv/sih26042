@@ -110,4 +110,3 @@ def ingest_performance_telemetry(payload: TelemetryIngestRequest, db: Session = 
         status="recorded",
         recorded_id=created.id,
     )
-

@@ -8,7 +8,6 @@ Produces byte-for-byte reproducible .slp archives by enforcing:
 - Cryptographic SHA-256 hashing and comprehensive build-report.json generation
 """
 
-import hashlib
 import json
 import zipfile
 from datetime import datetime, timezone

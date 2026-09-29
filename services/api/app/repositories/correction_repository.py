@@ -35,7 +35,6 @@ class CorrectionRepository:
         return q.order_by(TeacherCorrection.id.desc()).limit(limit).all()
 
 
-
 class TelemetryRepository:
     def __init__(self, db: Session):
         self.db = db

@@ -8,12 +8,10 @@ try:
     from contracts import LanguagePackManifest
 except ImportError:
     import sys
-    from pathlib import Path
     _contracts_path = Path(__file__).resolve().parents[2] / "packages" / "contracts" / "python"
     if str(_contracts_path) not in sys.path:
         sys.path.insert(0, str(_contracts_path))
     from contracts import LanguagePackManifest
-
 
 
 def validate_manifest_dict(data: Dict[str, Any]) -> Tuple[bool, List[str]]:

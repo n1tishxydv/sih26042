@@ -6,7 +6,7 @@ from pathlib import Path
 _cur = Path(__file__).resolve().parent
 if str(_cur) not in sys.path:
     sys.path.insert(0, str(_cur))
-from validator import validate_manifest_file, validate_manifest_dict
+from validator import validate_manifest_file, validate_manifest_dict  # noqa: E402
 
 
 def test_santali_pack_manifest_valid():

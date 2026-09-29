@@ -9,10 +9,9 @@ class HindiNormalizer:
 
     # Punctuation to strip
     PUNCT_REGEX = re.compile(r'[\s\.,।?!:;\-_"\'\(\)\[\]{}—/\\।]+')
-    
+
     # Common Hindi spoken contractions / filler words in primary classrooms
     STOP_WORDS = {"कृपया", "जरा", "ज़रा", "अरे", "बेटा", "बच्चों", "बच्चो", "जी"}
-
 
     @classmethod
     def normalize(cls, text: str, remove_fillers: bool = False) -> str:
@@ -20,7 +19,7 @@ class HindiNormalizer:
             return ""
         # Unicode canonical decomposition and recomposition (NFC)
         normalized = unicodedata.normalize("NFC", text.strip())
-        
+
         # Replace danda and double danda with space
         normalized = normalized.replace("।", " ").replace("॥", " ")
 
@@ -45,7 +44,7 @@ class HindiNormalizer:
             return 1.0
         if not s1 or not s2:
             return 0.0
-        
+
         len1, len2 = len(s1), len(s2)
         matrix = [[0] * (len2 + 1) for _ in range(len1 + 1)]
 
@@ -58,9 +57,9 @@ class HindiNormalizer:
             for j in range(1, len2 + 1):
                 cost = 0 if s1[i - 1] == s2[j - 1] else 1
                 matrix[i][j] = min(
-                    matrix[i - 1][j] + 1,       # deletion
-                    matrix[i][j - 1] + 1,       # insertion
-                    matrix[i - 1][j - 1] + cost # substitution
+                    matrix[i - 1][j] + 1,        # deletion
+                    matrix[i][j - 1] + 1,        # insertion
+                    matrix[i - 1][j - 1] + cost  # substitution
                 )
 
         distance = matrix[len1][len2]

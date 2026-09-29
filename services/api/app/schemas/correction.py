@@ -59,4 +59,3 @@ class MtEvaluationRecordCreate(BaseModel):
     wrong_count: int = 0
     unusable_count: int = 0
     notes: Optional[str] = None
-

@@ -4,10 +4,9 @@ import json
 from pathlib import Path
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from ..models.pack import LanguagePack, PackVersion
+from ..models.pack import PackVersion
 from ..repositories.pack_repository import PackRepository
 from ..schemas.pack import PackSummaryResponse, PackVersionSchema
-from ..core.config import settings
 
 
 class PackService:
@@ -26,7 +25,7 @@ class PackService:
                     if "manifest.json" not in zf.namelist():
                         continue
                     manifest_raw = json.loads(zf.read("manifest.json").decode("utf-8"))
-                    
+
                     pack_data = {
                         "pack_id": manifest_raw["pack_id"],
                         "language_code": manifest_raw["language_code"],
@@ -100,7 +99,7 @@ class PackService:
         if not version or version == "latest":
             latest = self.repo.get_latest_version(pack_id)
             return Path(latest.file_path) if latest else None
-        
+
         v = (
             self.repo.db.query(PackVersion)
             .filter(PackVersion.pack_id == pack_id, PackVersion.version == version)

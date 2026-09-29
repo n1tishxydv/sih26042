@@ -1,5 +1,4 @@
 """Unit tests for the Native Santali Audio Ingestion Pipeline (Phase 4)."""
-import os
 import shutil
 import struct
 import tempfile
@@ -9,9 +8,9 @@ from pathlib import Path
 
 from tools.audio_ingestion.ingest_audio import (
     analyze_wav,
-    compute_sha256,
     ingest_audio_file
 )
+
 
 def create_synthetic_wav(path: Path, duration_sec=1.0, sample_rate=16000, amplitude=16000):
     num_samples = int(duration_sec * sample_rate)
@@ -37,7 +36,7 @@ class TestAudioIngestion(unittest.TestCase):
     def test_analyze_wav_clean(self):
         wav_path = self.temp_dir / "clean.wav"
         create_synthetic_wav(wav_path, duration_sec=1.2, sample_rate=16000, amplitude=16000)
-        
+
         report = analyze_wav(wav_path)
         self.assertTrue(report.is_valid)
         self.assertEqual(report.sample_rate, 16000)
@@ -50,7 +49,7 @@ class TestAudioIngestion(unittest.TestCase):
     def test_analyze_wav_wrong_sample_rate(self):
         wav_path = self.temp_dir / "wrong_sr.wav"
         create_synthetic_wav(wav_path, duration_sec=1.0, sample_rate=44100, amplitude=16000)
-        
+
         report = analyze_wav(wav_path)
         self.assertFalse(report.is_valid)
         self.assertTrue(any("16000" in e for e in report.errors))
@@ -58,7 +57,7 @@ class TestAudioIngestion(unittest.TestCase):
     def test_analyze_wav_clipping_detection(self):
         wav_path = self.temp_dir / "clipped.wav"
         create_synthetic_wav(wav_path, duration_sec=0.5, sample_rate=16000, amplitude=32767)
-        
+
         report = analyze_wav(wav_path)
         self.assertFalse(report.is_valid)
         self.assertTrue(report.clipping_count > 0)
@@ -67,7 +66,7 @@ class TestAudioIngestion(unittest.TestCase):
     def test_ingest_audio_file_pipeline(self):
         source_wav = self.temp_dir / "source.wav"
         create_synthetic_wav(source_wav, duration_sec=1.0, sample_rate=16000, amplitude=15000)
-        
+
         success, metadata = ingest_audio_file(
             input_wav=source_wav,
             phrase_id="ph_sit_down_01",
@@ -75,7 +74,7 @@ class TestAudioIngestion(unittest.TestCase):
             speaker_id="spk_sat_01",
             dialect="mayurbhanj"
         )
-        
+
         self.assertTrue(success)
         self.assertEqual(metadata["phrase_id"], "ph_sit_down_01")
         self.assertEqual(metadata["audio_version"], "v1")

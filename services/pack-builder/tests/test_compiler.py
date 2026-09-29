@@ -2,7 +2,6 @@
 
 from pathlib import Path
 from pack_builder.compiler import PackCompiler
-from pack_builder.validator import PackValidator
 
 
 def test_pack_compiler_build_santali(tmp_path):

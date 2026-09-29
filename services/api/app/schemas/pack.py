@@ -1,8 +1,8 @@
 """Pydantic v2 schemas for pack distribution and sync."""
 
 from datetime import datetime
-from typing import Dict, List, Optional
-from pydantic import BaseModel, Field
+from typing import List, Optional
+from pydantic import BaseModel
 
 
 class PackVersionSchema(BaseModel):

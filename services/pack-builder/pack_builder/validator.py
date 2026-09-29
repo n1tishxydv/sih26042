@@ -16,16 +16,6 @@ import wave
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple, Any
 
-from .models import (
-    PackManifest,
-    PhraseEntry,
-    FlnWord,
-    Worksheet,
-    StudentActivity,
-    ScriptConfig,
-    ContentVerificationStatus,
-    PhraseCategory,
-)
 from .normalizer import HindiNormalizer
 
 
@@ -144,7 +134,7 @@ class AudioValidator:
     def validate_audio_file(cls, file_path: Path) -> Tuple[bool, Optional[str], Optional[Dict[str, Any]]]:
         if not file_path.exists():
             return False, f"Audio file not found: {file_path}", None
-        
+
         file_size = file_path.stat().st_size
         if file_size == 0:
             return False, f"Audio file is empty (0 bytes): {file_path}", None
@@ -274,7 +264,8 @@ class PackValidator:
                 actual_norm = p.get("hindi_normalized", "")
                 if actual_norm != expected_norm:
                     warnings.append(
-                        f"Phrase '{pid}' hindi_normalized ('{actual_norm}') differs from canonical normalization ('{expected_norm}')"
+                        f"Phrase '{pid}' hindi_normalized ('{actual_norm}') "
+                        f"differs from canonical normalization ('{expected_norm}')"
                     )
 
                 # Audio reference tracking
@@ -290,14 +281,15 @@ class PackValidator:
                     reviewer = verification.get("reviewer_id") if isinstance(verification, dict) else None
                     if not reviewer:
                         warnings.append(
-                            f"Phrase '{pid}' marked VERIFIED without reviewer_id in verification metadata. Downgrade to PENDING_VALIDATION."
+                            f"Phrase '{pid}' marked VERIFIED without reviewer_id in verification metadata. "
+                            "Downgrade to PENDING_VALIDATION."
                         )
 
         # 2. Validate fln_vocabulary.json / fln_vocab.json
         fln_path = pack_dir / "fln_vocabulary.json"
         if not fln_path.exists():
             fln_path = pack_dir / "fln_vocab.json"
-        
+
         if fln_path.exists():
             with open(fln_path, "r", encoding="utf-8") as f:
                 fln_data = json.load(f)

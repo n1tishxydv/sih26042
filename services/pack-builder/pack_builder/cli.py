@@ -87,7 +87,7 @@ def main():
         compiler = PackCompiler(pack_path)
         try:
             slp_file, manifest, report = compiler.compile(out_path)
-            print(f"[SUCCESS] Built deterministic .slp language pack:")
+            print("[SUCCESS] Built deterministic .slp language pack:")
             print(f"  - Archive: {slp_file}")
             print(f"  - Archive SHA-256: {report['archive_sha256']}")
             print(f"  - Size: {report['archive_size_bytes']} bytes")
