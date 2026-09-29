@@ -1,0 +1,11 @@
+# Build artifacts
+*.pyc
+__pycache__/
+.pytest_cache/
+*.db
+.gradle/
+build/
+android/app/build/
+android/.gradle/
+local.properties
+*.log
