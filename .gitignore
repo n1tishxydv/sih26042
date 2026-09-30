@@ -1,11 +1,26 @@
-# Build artifacts
-*.pyc
+# Node
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-.pytest_cache/
-*.db
+*.pyc
+.venv/
+venv/
+
+# Android
 .gradle/
-build/
-android/app/build/
-android/.gradle/
+**/build/
 local.properties
-*.log
+
+# IDE
+.idea/
+.vscode/
