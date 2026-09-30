@@ -24,3 +24,14 @@ local.properties
 # IDE
 .idea/
 .vscode/
+
+# Android local/generated
+**/.kotlin/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files
+*.tmp
